@@ -492,7 +492,15 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/4017/Clock": "rgb(0, 255, 0)",
+      "/4017/Q0": "rgb(255, 255, 255)",
+      "/4017/Reset": "rgb(191, 191, 191)",
+      "/4040/Clock": "rgb(0, 150, 190)",
+      "/4040/Q2": "rgb(0, 0, 255)",
+      "/4046/Comp": "rgb(160, 94, 0)",
+      "/4046/SigIn": "rgb(255, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
