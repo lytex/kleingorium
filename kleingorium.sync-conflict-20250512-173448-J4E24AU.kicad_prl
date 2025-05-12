@@ -1,41 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND",
-      "/4040/Reset",
-      "VCC",
-      "/4017/ClockEnable",
-      "/4066/Cen",
-      "/4017/Q1",
-      "/4017/Q2",
-      "/4017/Q6",
-      "/4017/Q7",
-      "/4017/Q8",
-      "/4017/Q5",
-      "/4017/Q3",
-      "/4017/Q4",
-      "/4017/Q10",
-      "/4017/Q9",
-      "/4040/Q0",
-      "/4040/Q11",
-      "/4040/Q7",
-      "/4040/Q3",
-      "/4040/Q9",
-      "/4040/Q4",
-      "/4040/Q8",
-      "/4040/Q5",
-      "/4040/Q1",
-      "/4040/Q6",
-      "/4040/Q10",
-      "/4066/C2",
-      "/4066/D2",
-      "/4066/C1",
-      "/4066/D1"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -80,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000025",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_fffffffb",
     "zone_display_mode": 0
   },
   "git": {
