@@ -1558,15 +1558,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "04ce24f1-e3f6-4687-93b7-ed33c55902a5")
+			(uuid "adc5a43b-8267-471b-98ae-49bad4081b0b")
 		)
 		(pin "1"
-			(uuid "e4ebbcba-2431-4674-85ac-a82ca559c493")
+			(uuid "da9df9fb-836b-46cf-9720-fce69e2dcfc7")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1582,7 +1586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1290dc29-d0b0-427f-b3f8-aa0d489658cc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -1627,12 +1631,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f32aba5b-1dc2-474e-86a6-902f848dbf24")
+			(uuid "0d640345-76d6-4d82-974a-812596854eeb")
 		)
 		(instances
-			(project ""
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
-					(reference "#PWR015")
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1694,57 +1698,61 @@
 			)
 		)
 		(pin "9"
-			(uuid "74e5c291-2dc8-47c1-bf66-e65f14db293b")
+			(uuid "3d4ea735-37e1-4b18-a0f5-5380123ec237")
 		)
 		(pin "3"
-			(uuid "713a6ed7-a70a-44f1-9c45-c932f8819d60")
+			(uuid "25472a34-891a-4912-b479-e4b76ea2ce95")
 		)
 		(pin "11"
-			(uuid "96060582-7a26-441b-94c1-fb8463fb7c77")
+			(uuid "97c9c538-8e1e-4ae4-ba7a-eb3c3d7620b5")
 		)
 		(pin "12"
-			(uuid "5c91592d-041b-423c-b07d-1168d7698445")
+			(uuid "5f82a895-440b-47a2-889d-67035cbbdaf5")
 		)
 		(pin "7"
-			(uuid "53bf8b66-81fa-480b-9680-c6aab93849dc")
+			(uuid "61231456-043b-4bdd-b8a4-283a4f02dace")
 		)
 		(pin "6"
-			(uuid "c0afbc90-a362-4dab-ba25-06920324b100")
+			(uuid "14ba3a62-0cf0-4489-9c9f-db5321aa8c35")
 		)
 		(pin "10"
-			(uuid "bd5f9927-9bd9-4f9a-b389-a3be66d96e9f")
+			(uuid "7dccfb0a-7ea8-4f35-b0a6-586d92fee395")
 		)
 		(pin "4"
-			(uuid "8bdf2640-9ece-43ab-9935-54d8a4798957")
+			(uuid "6b7043f4-c2a3-4d6d-9388-dbb9639ea483")
 		)
 		(pin "14"
-			(uuid "08876565-cb41-477f-8310-338f21c56109")
+			(uuid "c6727ab1-28ec-4854-8325-a73fc6aa9e0f")
 		)
 		(pin "2"
-			(uuid "116c8021-7e81-4f6e-abe9-805b6c61eba8")
+			(uuid "f016897a-4643-4f79-b3fc-32e90f8be418")
 		)
 		(pin "8"
-			(uuid "c7b202f4-8a30-429e-be65-63c59d5bc408")
+			(uuid "a7aa5d3c-b4be-408b-aa96-a829e3378c75")
 		)
 		(pin "16"
-			(uuid "d5850e01-a629-4cb2-8d4c-cb31d57c309f")
+			(uuid "845d2bb0-2590-4d20-98ad-68a2ec3ad71a")
 		)
 		(pin "15"
-			(uuid "81349477-366e-40d5-b0cd-5b4bfa082384")
+			(uuid "a040e4d7-e6c2-452c-a2ef-e419d0d62286")
 		)
 		(pin "1"
-			(uuid "d6c960d8-d23a-4fd2-ace0-f59126f41414")
+			(uuid "e2bb9ef8-6d85-405c-82cd-f6c9fc4a5ad5")
 		)
 		(pin "13"
-			(uuid "ac9a37ac-4eac-4b7a-bf8d-ff5000b40c60")
+			(uuid "c9b6e67f-cfc6-41ec-a724-dc249eba5d04")
 		)
 		(pin "5"
-			(uuid "feaf5a07-cf76-4f09-9f79-2a93f8678d06")
+			(uuid "afbe50b0-4d75-4aee-952e-2dc495aa9269")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "U1")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -1806,18 +1814,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "b08311d8-010c-4e68-b1c1-a23904b9cdfb")
+			(uuid "f465d6db-4e09-4d74-82f9-6139c7e585fc")
 		)
 		(pin "1"
-			(uuid "cc2761c0-4ce5-4179-a83b-ee0638494d7f")
+			(uuid "039905bd-4287-4394-88d8-d095f2a963a7")
 		)
 		(pin "3"
-			(uuid "30ca0a3c-64ff-4846-8136-b355d81f868a")
+			(uuid "d1eba839-cff3-4c6c-8c9b-f2a2cb957a54")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1878,12 +1890,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3164b0c4-b1ff-417a-943e-4fa5a32aac6c")
+			(uuid "4e2ac3a4-98bf-4c60-af49-8c36fbca8de5")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1945,18 +1961,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "80d70d2c-8763-47fc-8872-f9d3d0a238d5")
+			(uuid "45a4d23e-3b3c-4dae-bd86-5b2b8d4c45d7")
 		)
 		(pin "1"
-			(uuid "d118ada8-0a5f-4332-8596-1c88af1d197a")
+			(uuid "8cf086a2-fd83-44c3-8904-b27c4c331340")
 		)
 		(pin "3"
-			(uuid "85e2d7f7-faaa-413d-ad69-30e531d5f272")
+			(uuid "3107f817-8350-4c78-8c9b-075ae821eca9")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2017,12 +2037,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2aaf091e-4b9e-4309-81ac-f2c6e0b9b87b")
+			(uuid "2ed8ca06-4044-4222-9479-759035a667b6")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2084,15 +2108,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "8c871f41-6247-4295-9952-c57b2b7b6f23")
+			(uuid "b21f99b5-8c46-4823-beec-9d83206e92f8")
 		)
 		(pin "1"
-			(uuid "aea61916-3e82-4e2b-b3c4-f072a38b539a")
+			(uuid "179108bc-f1f5-42bc-a949-05961a62c9f7")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2153,12 +2181,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "43364a8a-0cda-4b40-8b9d-321ad42b5080")
+			(uuid "1bde66ae-1184-4fc4-a940-367145ad0da8")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2220,15 +2252,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "7107e7a4-c681-4a32-a928-799098621ece")
+			(uuid "4d5b2ef2-823f-4578-a245-1b9de5538926")
 		)
 		(pin "1"
-			(uuid "2ca44ab3-73da-4d96-8c85-f089e4d6062e")
+			(uuid "e6fd1cd6-d103-4d7b-b87e-5364c199bda4")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2290,15 +2326,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a311316-5119-41e5-8351-b48d7cdb65da")
+			(uuid "68b5cb8b-8c85-46b0-9267-6da32bdcb74b")
 		)
 		(pin "1"
-			(uuid "5502bce1-0764-470d-af6f-979ae8b82ff4")
+			(uuid "e34daffa-ebf9-46d5-83f6-6b7b8b9a5bff")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2359,12 +2399,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "37942236-ba0c-4ab0-b56d-4ab3215590de")
+			(uuid "811ecb6d-f53c-4505-8d7d-b82c50d6d5a7")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2379,7 +2423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef244140-be3b-4ece-9b76-bf2c47f41880")
-		(property "Reference" "C1"
+		(property "Reference" "C"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -2426,15 +2470,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c57908b4-1c03-48bf-8f8c-01896458a5d2")
+			(uuid "6701b89f-cb94-4992-9186-9247802b3316")
 		)
 		(pin "1"
-			(uuid "df4fcbc3-5a1a-4c12-9a9e-bee43a350c8a")
+			(uuid "f514e448-07cf-47b8-a293-8fd4432e2782")
 		)
 		(instances
-			(project ""
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/79441be6-e853-4219-9c9d-5fa446c925d2"
-					(reference "C1")
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ec892350-7ee5-4574-b787-aa0418288502"
+					(reference "C8")
 					(unit 1)
 				)
 			)

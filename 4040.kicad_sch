@@ -1078,7 +1078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21dc299b-6a87-42bc-9afc-baaefc835840")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -1123,12 +1123,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c4f67e6-0aaf-448f-ad1a-04b8dddda7a5")
+			(uuid "05c3a4e9-803d-4422-a42c-d13d8f55923d")
 		)
 		(instances
-			(project ""
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/52b875be-0119-4d8e-9a5f-5c83f9081af4"
-					(reference "#PWR036")
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/cd1975a8-69a9-42c9-8d5e-87a03483f676"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1189,12 +1189,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ac537a7-2f86-4464-b242-36dfcec28676")
+			(uuid "0fa9bb87-948b-4538-8d0f-a804298a92f5")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/52b875be-0119-4d8e-9a5f-5c83f9081af4"
 					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/cd1975a8-69a9-42c9-8d5e-87a03483f676"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1210,7 +1214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e21afcf-2358-4fa6-8bfc-4e659759ce50")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR"
 			(at 133.35 99.06 0)
 			(effects
 				(font
@@ -1255,12 +1259,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4635c89c-cece-420d-9b3b-81b10e57936b")
+			(uuid "5b4a145e-5a74-4ef3-bed7-139a1ec33a2c")
 		)
 		(instances
-			(project ""
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/52b875be-0119-4d8e-9a5f-5c83f9081af4"
-					(reference "#PWR037")
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/cd1975a8-69a9-42c9-8d5e-87a03483f676"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1322,57 +1326,61 @@
 			)
 		)
 		(pin "9"
-			(uuid "cd3e0846-dc9f-4469-8ee2-06f26fa95d91")
+			(uuid "d665a657-79f5-4e2b-b5da-27fc7adc90a1")
 		)
 		(pin "11"
-			(uuid "27c6458b-74db-4631-8730-279d84511798")
+			(uuid "8da802c6-3e4d-48e3-becc-d48b36525d72")
 		)
 		(pin "10"
-			(uuid "732bc979-9bd1-492e-a407-8e49cfeaf77c")
+			(uuid "cd37c204-57e7-4e44-b98c-d29bc552b9c1")
 		)
 		(pin "8"
-			(uuid "3063b506-eb14-4079-8653-b969f2b1bc2a")
+			(uuid "db7241f5-90a4-484d-9889-c03bace91e9a")
 		)
 		(pin "2"
-			(uuid "050d9238-bf3e-4ccf-ad64-f90148bf31af")
+			(uuid "d9ea8fbd-6793-4413-9bf6-e1f8bc5609a1")
 		)
 		(pin "4"
-			(uuid "05df9b1e-001a-4957-99cc-7a494d91f341")
+			(uuid "a137b78c-c5bf-4159-9317-f1c4edd53ec6")
 		)
 		(pin "1"
-			(uuid "05750ad4-b972-4c18-a8fd-807bfb6b1c91")
+			(uuid "f490fbd2-b982-4c56-a259-eae738ea821e")
 		)
 		(pin "14"
-			(uuid "76478b95-4a4c-4604-b076-4ee549d95186")
+			(uuid "ecce11ad-395c-4758-af00-ca14d82726ea")
 		)
 		(pin "7"
-			(uuid "968d4c9b-f9e7-4c59-8706-554886789fec")
+			(uuid "bb2a6077-42ca-4609-a2de-01b106e4e610")
 		)
 		(pin "6"
-			(uuid "2fdb7961-ce25-4882-a671-368148baecbe")
+			(uuid "8d0d37f4-05e8-4aa9-9634-66ab18a6eea9")
 		)
 		(pin "16"
-			(uuid "605aab8a-d893-4f29-a7ba-d4373d92f1b8")
+			(uuid "8832010a-56ab-4050-866e-d135dd61f600")
 		)
 		(pin "5"
-			(uuid "174ab8e1-7cb2-4d29-a4ff-4d57a22b593b")
+			(uuid "a8f53d57-eb88-49e9-86e7-cafebf644698")
 		)
 		(pin "12"
-			(uuid "9a08e4e7-0026-4db8-967f-a9734e3856ed")
+			(uuid "33067488-0cc9-44ef-a429-7cd33952ea54")
 		)
 		(pin "15"
-			(uuid "8af24a94-4306-4053-8bba-d6704065a012")
+			(uuid "d47830a2-8ab4-4660-b541-6f814d333d47")
 		)
 		(pin "3"
-			(uuid "1dda51aa-6879-43db-a583-8cb6bbaf43d4")
+			(uuid "15dbdced-4f00-4fb3-974e-8739cfa6489e")
 		)
 		(pin "13"
-			(uuid "d1848dc1-ee0d-455f-804e-21ec0e3a6013")
+			(uuid "bfbfc913-8ca4-4b5b-8bce-b4d1b18aac30")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/52b875be-0119-4d8e-9a5f-5c83f9081af4"
 					(reference "U4")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/cd1975a8-69a9-42c9-8d5e-87a03483f676"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1434,15 +1442,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "17c79087-4c71-46b5-bb8c-e3853a7e0ed3")
+			(uuid "21c01e88-5e9a-4e30-9510-7637c8fb413c")
 		)
 		(pin "1"
-			(uuid "2de1531d-5ba7-493a-9ecf-a8890d5612b0")
+			(uuid "af01059b-b117-4dff-8a7f-ab259a8a2ae7")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/52b875be-0119-4d8e-9a5f-5c83f9081af4"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/cd1975a8-69a9-42c9-8d5e-87a03483f676"
+					(reference "R27")
 					(unit 1)
 				)
 			)
