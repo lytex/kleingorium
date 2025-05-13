@@ -1514,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b19ff3e-5243-42c0-a3d6-7d2c53835c6c")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0107"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -1561,38 +1561,43 @@
 		(pin "1"
 			(uuid "e32355e7-a975-48d4-9a61-88d6eda3258d")
 		)
-		(instances)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
-		(at 120.65 33.02 0)
-		(unit 1)
+		(at 149.86 53.34 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0cca2762-d16d-4a42-a477-cbbe2699e287")
-		(property "Reference" "U"
-			(at 124.46 31.7499 0)
+		(uuid "2fa15a73-8407-4e13-8508-93bc3ed4058a")
+		(property "Reference" "U5"
+			(at 149.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 124.46 34.2899 0)
+			(at 149.86 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 120.65 35.56 0)
+			(at 149.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 120.65 33.02 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1615,7 @@
 			)
 		)
 		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 120.65 33.02 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,49 +1623,56 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "7117e1e2-c063-40d3-be2b-5464c93da8c3")
-		)
-		(pin "14"
-			(uuid "67741a44-ce05-46d3-aacd-7c4c76ecae81")
+		(pin "9"
+			(uuid "b4b5438c-8595-454d-9d6f-b8751c48ce71")
 		)
 		(pin "10"
-			(uuid "af548ebe-8c1e-4410-8842-d4036f76c349")
-		)
-		(pin "12"
-			(uuid "8176be8b-126d-439a-a47c-503e8ee9e974")
+			(uuid "4b65f00c-dbe2-4655-92cf-a858fcbaa1aa")
 		)
 		(pin "5"
-			(uuid "824e5548-e5f4-46e6-b632-34f28ec69a5c")
-		)
-		(pin "4"
-			(uuid "bc2858e1-9bb2-445e-abc0-fd6540cc7384")
-		)
-		(pin "2"
-			(uuid "3dc7780e-cc50-4ca5-beac-c2396775c4ee")
-		)
-		(pin "13"
-			(uuid "28aac15e-aa54-4369-9dfb-74740d4f7ab7")
-		)
-		(pin "1"
-			(uuid "eb49672a-7e82-4cba-8f7a-3edb2a58627d")
+			(uuid "6e947746-d9c5-4487-9718-fb21da77b4e2")
 		)
 		(pin "3"
-			(uuid "1c579f7f-6c0a-4c91-b7f1-de5493795915")
+			(uuid "ca514317-4285-4582-97ff-18e1557171ea")
 		)
 		(pin "8"
-			(uuid "ead0140c-df53-4379-ad54-d40b6b6a3c8c")
+			(uuid "559a2686-edfe-4475-8465-a8dc979b506f")
+		)
+		(pin "2"
+			(uuid "f34a2a79-d7e9-4910-a4a7-b02e4cfca8d0")
+		)
+		(pin "13"
+			(uuid "dbc00ce3-0861-4d89-bce2-51ca8cfdb8a4")
+		)
+		(pin "4"
+			(uuid "f480afb5-f535-441f-8e2b-3df85e4d69e1")
+		)
+		(pin "1"
+			(uuid "3cc854c6-1f96-4695-8559-1e6de33e4ccf")
+		)
+		(pin "12"
+			(uuid "319a64e7-2ab1-4106-a4db-4f8e5b88f985")
+		)
+		(pin "14"
+			(uuid "7f2ff336-191e-4c57-9129-92fe9962373a")
 		)
 		(pin "11"
-			(uuid "95fb4a20-8ba5-4c9a-bde7-d821f80c34c2")
+			(uuid "73a0db26-f43e-4e7b-9c58-b6fb5c3e80bc")
 		)
-		(pin "9"
-			(uuid "88a0a420-3978-406e-8710-706b257484a2")
+		(pin "7"
+			(uuid "7b9b005b-e354-4224-a111-1920544eec50")
 		)
 		(pin "6"
-			(uuid "d2f3e665-f889-47e5-95a7-82ab4a42417c")
+			(uuid "9493984a-e686-4b4b-8f1e-26d2319522d4")
 		)
-		(instances)
+		(instances
+			(project ""
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
@@ -1671,8 +1683,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a574364-d859-4002-b236-8a1b9df8a9c3")
-		(property "Reference" "U"
+		(uuid "4ec64b07-34db-4cea-9901-e5eed125154e")
+		(property "Reference" "U5"
 			(at 97.79 45.72 0)
 			(effects
 				(font
@@ -1715,49 +1727,160 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "2c08736b-92d7-43a9-88fd-76778e9c141b")
-		)
-		(pin "14"
-			(uuid "1d9edd08-aa27-4f4f-8556-f8bcf187c419")
+		(pin "9"
+			(uuid "b4b5438c-8595-454d-9d6f-b8751c48ce71")
 		)
 		(pin "10"
-			(uuid "af548ebe-8c1e-4410-8842-d4036f76c34a")
-		)
-		(pin "12"
-			(uuid "8176be8b-126d-439a-a47c-503e8ee9e975")
+			(uuid "4b65f00c-dbe2-4655-92cf-a858fcbaa1aa")
 		)
 		(pin "5"
-			(uuid "824e5548-e5f4-46e6-b632-34f28ec69a5d")
-		)
-		(pin "4"
-			(uuid "bc2858e1-9bb2-445e-abc0-fd6540cc7385")
-		)
-		(pin "2"
-			(uuid "d078fb8e-f54e-4180-9475-5fcd57340ad6")
-		)
-		(pin "13"
-			(uuid "a938e76b-e542-4987-ba1f-25764a0927ef")
-		)
-		(pin "1"
-			(uuid "f3b66a8e-8c51-4e98-9be9-46809736a4af")
+			(uuid "6e947746-d9c5-4487-9718-fb21da77b4e2")
 		)
 		(pin "3"
-			(uuid "1c579f7f-6c0a-4c91-b7f1-de5493795916")
+			(uuid "ca514317-4285-4582-97ff-18e1557171ea")
 		)
 		(pin "8"
-			(uuid "ead0140c-df53-4379-ad54-d40b6b6a3c8d")
+			(uuid "559a2686-edfe-4475-8465-a8dc979b506f")
+		)
+		(pin "2"
+			(uuid "f34a2a79-d7e9-4910-a4a7-b02e4cfca8d0")
+		)
+		(pin "13"
+			(uuid "dbc00ce3-0861-4d89-bce2-51ca8cfdb8a4")
+		)
+		(pin "4"
+			(uuid "f480afb5-f535-441f-8e2b-3df85e4d69e1")
+		)
+		(pin "1"
+			(uuid "3cc854c6-1f96-4695-8559-1e6de33e4ccf")
+		)
+		(pin "12"
+			(uuid "319a64e7-2ab1-4106-a4db-4f8e5b88f985")
+		)
+		(pin "14"
+			(uuid "7f2ff336-191e-4c57-9129-92fe9962373a")
 		)
 		(pin "11"
-			(uuid "95fb4a20-8ba5-4c9a-bde7-d821f80c34c3")
+			(uuid "73a0db26-f43e-4e7b-9c58-b6fb5c3e80bc")
 		)
-		(pin "9"
-			(uuid "88a0a420-3978-406e-8710-706b257484a3")
+		(pin "7"
+			(uuid "7b9b005b-e354-4224-a111-1920544eec50")
 		)
 		(pin "6"
-			(uuid "d2f3e665-f889-47e5-95a7-82ab4a42417d")
+			(uuid "9493984a-e686-4b4b-8f1e-26d2319522d4")
 		)
-		(instances)
+		(instances
+			(project ""
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 97.79 81.28 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84310737-a886-448f-af31-94ea6aa22335")
+		(property "Reference" "U5"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4066BE"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "b4b5438c-8595-454d-9d6f-b8751c48ce71")
+		)
+		(pin "10"
+			(uuid "4b65f00c-dbe2-4655-92cf-a858fcbaa1aa")
+		)
+		(pin "5"
+			(uuid "6e947746-d9c5-4487-9718-fb21da77b4e2")
+		)
+		(pin "3"
+			(uuid "ca514317-4285-4582-97ff-18e1557171ea")
+		)
+		(pin "8"
+			(uuid "559a2686-edfe-4475-8465-a8dc979b506f")
+		)
+		(pin "2"
+			(uuid "f34a2a79-d7e9-4910-a4a7-b02e4cfca8d0")
+		)
+		(pin "13"
+			(uuid "dbc00ce3-0861-4d89-bce2-51ca8cfdb8a4")
+		)
+		(pin "4"
+			(uuid "f480afb5-f535-441f-8e2b-3df85e4d69e1")
+		)
+		(pin "1"
+			(uuid "3cc854c6-1f96-4695-8559-1e6de33e4ccf")
+		)
+		(pin "12"
+			(uuid "319a64e7-2ab1-4106-a4db-4f8e5b88f985")
+		)
+		(pin "14"
+			(uuid "7f2ff336-191e-4c57-9129-92fe9962373a")
+		)
+		(pin "11"
+			(uuid "73a0db26-f43e-4e7b-9c58-b6fb5c3e80bc")
+		)
+		(pin "7"
+			(uuid "7b9b005b-e354-4224-a111-1920544eec50")
+		)
+		(pin "6"
+			(uuid "9493984a-e686-4b4b-8f1e-26d2319522d4")
+		)
+		(instances
+			(project ""
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -1769,7 +1892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9a3129f-1376-4d2b-b386-3b84133e0bd1")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0108"
 			(at 120.65 24.13 0)
 			(effects
 				(font
@@ -1816,36 +1939,45 @@
 		(pin "1"
 			(uuid "d396ff2f-0d5e-4cfe-b285-159833e29e84")
 		)
-		(instances)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
-		(at 97.79 81.28 0)
-		(unit 1)
+		(at 120.65 33.02 0)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8b6ddb2-1b82-4bde-b0c6-8c8b544f12c6")
-		(property "Reference" "U"
-			(at 97.79 73.66 0)
+		(uuid "b8d08d49-eb19-4bdd-83ab-0ce0c7dd8ba5")
+		(property "Reference" "U5"
+			(at 124.46 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 97.79 76.2 0)
+			(at 124.46 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 97.79 83.82 0)
+			(at 120.65 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1986,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 97.79 81.28 0)
+			(at 120.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,166 +1995,76 @@
 			)
 		)
 		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 97.79 81.28 0)
+			(at 120.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "7"
-			(uuid "2c08736b-92d7-43a9-88fd-76778e9c141c")
-		)
-		(pin "14"
-			(uuid "1d9edd08-aa27-4f4f-8556-f8bcf187c41a")
-		)
-		(pin "10"
-			(uuid "af548ebe-8c1e-4410-8842-d4036f76c34b")
-		)
-		(pin "12"
-			(uuid "8176be8b-126d-439a-a47c-503e8ee9e976")
-		)
-		(pin "5"
-			(uuid "b9db6427-cf26-4d32-b61f-8de5cb0bc0ab")
-		)
-		(pin "4"
-			(uuid "747ed0d3-a6ff-4a7e-b577-44268fdd0b10")
-		)
-		(pin "2"
-			(uuid "3dc7780e-cc50-4ca5-beac-c2396775c4f0")
-		)
-		(pin "13"
-			(uuid "28aac15e-aa54-4369-9dfb-74740d4f7ab9")
-		)
-		(pin "1"
-			(uuid "eb49672a-7e82-4cba-8f7a-3edb2a58627f")
-		)
-		(pin "3"
-			(uuid "db47157c-e88a-476f-b334-1022261dcf68")
-		)
-		(pin "8"
-			(uuid "ead0140c-df53-4379-ad54-d40b6b6a3c8e")
-		)
-		(pin "11"
-			(uuid "95fb4a20-8ba5-4c9a-bde7-d821f80c34c4")
 		)
 		(pin "9"
-			(uuid "88a0a420-3978-406e-8710-706b257484a4")
-		)
-		(pin "6"
-			(uuid "d2f3e665-f889-47e5-95a7-82ab4a42417e")
-		)
-		(instances)
-	)
-	(symbol
-		(lib_id "Analog_Switch:CD4066BE")
-		(at 149.86 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cca3ae88-d657-4690-89c0-c41543357e6d")
-		(property "Reference" "U"
-			(at 149.86 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD4066BE"
-			(at 149.86 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 149.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 149.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "2c08736b-92d7-43a9-88fd-76778e9c141d")
-		)
-		(pin "14"
-			(uuid "1d9edd08-aa27-4f4f-8556-f8bcf187c41b")
+			(uuid "b4b5438c-8595-454d-9d6f-b8751c48ce71")
 		)
 		(pin "10"
-			(uuid "af548ebe-8c1e-4410-8842-d4036f76c34c")
-		)
-		(pin "12"
-			(uuid "8176be8b-126d-439a-a47c-503e8ee9e977")
+			(uuid "4b65f00c-dbe2-4655-92cf-a858fcbaa1aa")
 		)
 		(pin "5"
-			(uuid "824e5548-e5f4-46e6-b632-34f28ec69a5f")
-		)
-		(pin "4"
-			(uuid "bc2858e1-9bb2-445e-abc0-fd6540cc7387")
-		)
-		(pin "2"
-			(uuid "3dc7780e-cc50-4ca5-beac-c2396775c4f1")
-		)
-		(pin "13"
-			(uuid "28aac15e-aa54-4369-9dfb-74740d4f7aba")
-		)
-		(pin "1"
-			(uuid "eb49672a-7e82-4cba-8f7a-3edb2a586280")
+			(uuid "6e947746-d9c5-4487-9718-fb21da77b4e2")
 		)
 		(pin "3"
-			(uuid "1c579f7f-6c0a-4c91-b7f1-de5493795918")
+			(uuid "ca514317-4285-4582-97ff-18e1557171ea")
 		)
 		(pin "8"
-			(uuid "ea8eb143-0f23-487c-9c8f-4acb59a0210e")
+			(uuid "559a2686-edfe-4475-8465-a8dc979b506f")
+		)
+		(pin "2"
+			(uuid "f34a2a79-d7e9-4910-a4a7-b02e4cfca8d0")
+		)
+		(pin "13"
+			(uuid "dbc00ce3-0861-4d89-bce2-51ca8cfdb8a4")
+		)
+		(pin "4"
+			(uuid "f480afb5-f535-441f-8e2b-3df85e4d69e1")
+		)
+		(pin "1"
+			(uuid "3cc854c6-1f96-4695-8559-1e6de33e4ccf")
+		)
+		(pin "12"
+			(uuid "319a64e7-2ab1-4106-a4db-4f8e5b88f985")
+		)
+		(pin "14"
+			(uuid "7f2ff336-191e-4c57-9129-92fe9962373a")
 		)
 		(pin "11"
-			(uuid "95fb4a20-8ba5-4c9a-bde7-d821f80c34c5")
+			(uuid "73a0db26-f43e-4e7b-9c58-b6fb5c3e80bc")
 		)
-		(pin "9"
-			(uuid "688fa078-e80a-4341-a26a-0f5c3b5a958f")
+		(pin "7"
+			(uuid "7b9b005b-e354-4224-a111-1920544eec50")
 		)
 		(pin "6"
-			(uuid "a82e21a1-6b92-499a-a55e-3e5dcc9be6c4")
+			(uuid "9493984a-e686-4b4b-8f1e-26d2319522d4")
 		)
-		(instances)
+		(instances
+			(project ""
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
 		(at 149.86 78.74 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4786ffe-4af5-4572-a80f-5de995d6be50")
-		(property "Reference" "U"
+		(uuid "c60d799a-6ecd-4ed6-849b-8c7d626d4b16")
+		(property "Reference" "U5"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -2065,48 +2107,55 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "2c08736b-92d7-43a9-88fd-76778e9c141e")
-		)
-		(pin "14"
-			(uuid "1d9edd08-aa27-4f4f-8556-f8bcf187c41c")
+		(pin "9"
+			(uuid "b4b5438c-8595-454d-9d6f-b8751c48ce71")
 		)
 		(pin "10"
-			(uuid "a648f41a-f0f2-418b-a90c-2be1e1f60fa0")
-		)
-		(pin "12"
-			(uuid "641649be-1921-413a-bda1-a6ca56dce7fa")
+			(uuid "4b65f00c-dbe2-4655-92cf-a858fcbaa1aa")
 		)
 		(pin "5"
-			(uuid "824e5548-e5f4-46e6-b632-34f28ec69a60")
-		)
-		(pin "4"
-			(uuid "bc2858e1-9bb2-445e-abc0-fd6540cc7388")
-		)
-		(pin "2"
-			(uuid "3dc7780e-cc50-4ca5-beac-c2396775c4f2")
-		)
-		(pin "13"
-			(uuid "28aac15e-aa54-4369-9dfb-74740d4f7abb")
-		)
-		(pin "1"
-			(uuid "eb49672a-7e82-4cba-8f7a-3edb2a586281")
+			(uuid "6e947746-d9c5-4487-9718-fb21da77b4e2")
 		)
 		(pin "3"
-			(uuid "1c579f7f-6c0a-4c91-b7f1-de5493795919")
+			(uuid "ca514317-4285-4582-97ff-18e1557171ea")
 		)
 		(pin "8"
-			(uuid "ead0140c-df53-4379-ad54-d40b6b6a3c90")
+			(uuid "559a2686-edfe-4475-8465-a8dc979b506f")
+		)
+		(pin "2"
+			(uuid "f34a2a79-d7e9-4910-a4a7-b02e4cfca8d0")
+		)
+		(pin "13"
+			(uuid "dbc00ce3-0861-4d89-bce2-51ca8cfdb8a4")
+		)
+		(pin "4"
+			(uuid "f480afb5-f535-441f-8e2b-3df85e4d69e1")
+		)
+		(pin "1"
+			(uuid "3cc854c6-1f96-4695-8559-1e6de33e4ccf")
+		)
+		(pin "12"
+			(uuid "319a64e7-2ab1-4106-a4db-4f8e5b88f985")
+		)
+		(pin "14"
+			(uuid "7f2ff336-191e-4c57-9129-92fe9962373a")
 		)
 		(pin "11"
-			(uuid "bbfaa8b4-c2bd-404c-b056-c2189dbe08c9")
+			(uuid "73a0db26-f43e-4e7b-9c58-b6fb5c3e80bc")
 		)
-		(pin "9"
-			(uuid "88a0a420-3978-406e-8710-706b257484a6")
+		(pin "7"
+			(uuid "7b9b005b-e354-4224-a111-1920544eec50")
 		)
 		(pin "6"
-			(uuid "d2f3e665-f889-47e5-95a7-82ab4a424180")
+			(uuid "9493984a-e686-4b4b-8f1e-26d2319522d4")
 		)
-		(instances)
+		(instances
+			(project ""
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/22f83b5a-3e98-4c49-ae4d-8756987d640f"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
 	)
 )

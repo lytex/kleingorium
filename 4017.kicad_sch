@@ -1304,7 +1304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0638e6-0859-46f2-9dc8-1707142315cd")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0102"
 			(at 148.59 60.96 0)
 			(effects
 				(font
@@ -1353,6 +1353,10 @@
 		)
 		(instances
 			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/2480befe-b8c4-416e-bc2e-ed39f97a6377"
+					(reference "#PWR0102")
+					(unit 1)
+				)
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/b5613d46-8007-4aff-a7fe-9be23c91de99"
 					(reference "#PWR065")
 					(unit 1)

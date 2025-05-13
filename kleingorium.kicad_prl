@@ -31,10 +31,10 @@
       "/4040/Q1",
       "/4040/Q6",
       "/4040/Q10",
-      "/4066/C2",
-      "/4066/D2",
-      "/4066/C1",
-      "/4066/D1"
+      "Net-(U15-C1)",
+      "Net-(U15-C2)",
+      "/4055/Select",
+      "/4055/A"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -80,7 +80,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000225",
+    "visible_layers": "00000000_00000000_00000008_02000225",
     "zone_display_mode": 0
   },
   "git": {

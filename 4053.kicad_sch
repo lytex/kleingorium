@@ -1911,7 +1911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b092452-66e1-456f-b3aa-731ce122e4ab")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0104"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -1960,6 +1960,10 @@
 		)
 		(instances
 			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/549628a7-44d2-4883-9fdf-386766dac597"
+					(reference "#PWR0104")
+					(unit 1)
+				)
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/f2216334-2d66-49b4-b504-64b8663ae1c2"
 					(reference "#PWR050")
 					(unit 1)
@@ -2308,7 +2312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbd6e872-80fc-40b4-a088-bc0ddb005d37")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0103"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -2357,6 +2361,10 @@
 		)
 		(instances
 			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/549628a7-44d2-4883-9fdf-386766dac597"
+					(reference "#PWR0103")
+					(unit 1)
+				)
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/f2216334-2d66-49b4-b504-64b8663ae1c2"
 					(reference "#PWR062")
 					(unit 1)
