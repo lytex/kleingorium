@@ -933,6 +933,18 @@
 		(uuid "1bbeb2d8-037d-49be-a979-68cb2dd2f23d")
 	)
 	(junction
+		(at 110.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a5ec74e-4bcc-4f1a-b776-89583a9308cb")
+	)
+	(junction
+		(at 110.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c206e99-701f-48d2-b22e-ebcc5083186f")
+	)
+	(junction
 		(at 31.75 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1274,6 +1286,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 74.93) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe7c9e0-08e2-4715-bb75-7fb5aef682db")
+	)
+	(wire
+		(pts
 			(xy 60.96 87.63) (xy 69.85 87.63)
 		)
 		(stroke
@@ -1344,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 74.93) (xy 118.11 74.93)
+			(xy 99.06 74.93) (xy 110.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1391,6 +1413,26 @@
 			(type default)
 		)
 		(uuid "af258340-f6ba-4884-b969-9ca2a98080ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24ceb3a-96b4-4f84-b7e2-dbeabdf3866f")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb5dd35-7bda-4719-b497-75e1b5e52975")
 	)
 	(wire
 		(pts
@@ -1454,6 +1496,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 74.93) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e496d577-7a22-4082-9913-a46d31f7224d")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.93) (xy 69.85 74.93)
 		)
 		(stroke
@@ -1494,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 87.63) (xy 118.11 87.63)
+			(xy 99.06 87.63) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2065,6 +2117,75 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/3ee3ba2e-f83c-4d97-8875-a2d65fcd8e09"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 110.49 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98e7dcee-fff1-4bc6-91ca-f58b3cf8738c")
+		(property "Reference" "C18"
+			(at 111.252 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 111.76 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 111.4552 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df917169-3319-4029-b6d6-2477f2b2d50d")
+		)
+		(pin "1"
+			(uuid "beeddd8e-d170-4c06-83ac-0f31a85701a5")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/3ee3ba2e-f83c-4d97-8875-a2d65fcd8e09"
+					(reference "C18")
 					(unit 1)
 				)
 			)

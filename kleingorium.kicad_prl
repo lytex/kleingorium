@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -32,9 +32,7 @@
       "/4040/Q6",
       "/4040/Q10",
       "Net-(U15-C1)",
-      "Net-(U15-C2)",
-      "/4055/Select",
-      "/4055/A"
+      "Net-(U15-C2)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -56,7 +54,7 @@
       "pads": true,
       "text": true,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": true
     },
     "visible_items": [
@@ -80,7 +78,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_02000225",
+    "visible_layers": "00000000_00000000_00000000_02020225",
     "zone_display_mode": 0
   },
   "git": {
