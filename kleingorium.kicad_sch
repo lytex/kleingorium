@@ -3279,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 161.29) (xy 294.64 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309cf644-cc3b-4f0d-8368-77abc6baa915")
+	)
+	(wire
+		(pts
 			(xy 264.16 80.01) (xy 276.86 80.01)
 		)
 		(stroke
@@ -4219,16 +4229,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 161.29) (xy 294.64 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79171413-7150-4005-b69c-bc0a8f721fd4")
-	)
-	(wire
-		(pts
 			(xy 251.46 90.17) (xy 264.16 90.17)
 		)
 		(stroke
@@ -4546,6 +4546,16 @@
 			(type default)
 		)
 		(uuid "9738c01d-ef2f-4e16-b26e-6c18eeca83c8")
+	)
+	(wire
+		(pts
+			(xy 294.64 161.29) (xy 91.44 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999816e8-dbb3-4930-85e0-18ac474bf33d")
 	)
 	(wire
 		(pts
@@ -5489,16 +5499,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 161.29) (xy 294.64 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fba471cf-49e4-44b8-bfb2-840a1696e03b")
-	)
-	(wire
-		(pts
 			(xy 50.8 59.69) (xy 146.05 59.69)
 		)
 		(stroke
@@ -5902,16 +5902,14 @@
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 86.36 128.27 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "270f2bde-7c9a-4a7a-bdaf-7c45c15cdc28")
 		(property "Reference" "SW4"
-			(at 86.36 137.16 0)
+			(at 86.36 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5918,7 @@
 			)
 		)
 		(property "Value" "4017 Feedback"
-			(at 86.36 134.62 0)
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,15 +7495,15 @@
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 86.36 163.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3410d2f-b969-44eb-a428-f8cd213f4798")
 		(property "Reference" "SW1"
-			(at 86.36 154.94 0)
+			(at 86.36 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7512,7 @@
 			)
 		)
 		(property "Value" "4017 Feedback"
-			(at 86.36 157.48 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
