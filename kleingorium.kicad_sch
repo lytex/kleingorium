@@ -5709,7 +5709,7 @@
 			)
 		)
 		(property "Value" "4046 CompIn"
-			(at 102.87 253.9999 90)
+			(at 104.14 255.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
