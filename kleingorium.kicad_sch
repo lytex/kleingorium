@@ -2460,18 +2460,6 @@
 		(uuid "960ca46e-25e3-42fb-8691-c99a32054f0c")
 	)
 	(junction
-		(at 83.82 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c79809f-3883-468e-adc8-9074e5bdc82f")
-	)
-	(junction
-		(at 73.66 256.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c992226-cd57-4690-87fe-7c1045af0b6f")
-	)
-	(junction
 		(at 91.44 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,12 +2592,6 @@
 		(uuid "de4a8c2d-1da3-461f-a0d3-bd51f4d4960f")
 	)
 	(junction
-		(at 73.66 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3991f93-acb9-408a-8e26-f5e9015b112e")
-	)
-	(junction
 		(at 184.15 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2632,12 +2614,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eecb9c75-50ec-4f95-b680-c1b38a13de41")
-	)
-	(junction
-		(at 82.55 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efad97c6-45d1-489c-94c8-9f9b4f60be78")
 	)
 	(junction
 		(at 254 45.72)
@@ -2876,16 +2852,6 @@
 			(type default)
 		)
 		(uuid "12066f83-4124-4b88-9bf9-1743e03f5e92")
-	)
-	(wire
-		(pts
-			(xy 73.66 48.26) (xy 82.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1258fa60-3b94-43c8-aaa4-1af600797a98")
 	)
 	(wire
 		(pts
@@ -4029,7 +3995,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 163.83 48.26)
+			(xy 73.66 48.26) (xy 163.83 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4056,16 +4022,6 @@
 			(type default)
 		)
 		(uuid "6e572d20-0434-4c06-92cf-b244cd7c22da")
-	)
-	(wire
-		(pts
-			(xy 73.66 36.83) (xy 82.55 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e6cc44b-30f3-4dac-b4e8-096b2e586c16")
 	)
 	(wire
 		(pts
@@ -4146,16 +4102,6 @@
 			(type default)
 		)
 		(uuid "745112d0-e859-4e07-87c4-2df0ff4dc1c7")
-	)
-	(wire
-		(pts
-			(xy 82.55 44.45) (xy 82.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755cc7e4-dab8-4ebd-9276-abd817ce8d85")
 	)
 	(wire
 		(pts
@@ -4439,16 +4385,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 39.37) (xy 82.55 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3efccd-94db-41af-b438-0cfc706a3522")
-	)
-	(wire
-		(pts
 			(xy 251.46 107.95) (xy 264.16 107.95)
 		)
 		(stroke
@@ -4679,7 +4615,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 245.11) (xy 83.82 245.11)
+			(xy 73.66 245.11) (xy 140.97 245.11)
 		)
 		(stroke
 			(width 0)
@@ -4706,16 +4642,6 @@
 			(type default)
 		)
 		(uuid "a5e7014b-769c-4a69-87e5-47a3d02d7059")
-	)
-	(wire
-		(pts
-			(xy 83.82 245.11) (xy 140.97 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67063d3-9409-40bd-8c55-d9acf4cafaca")
 	)
 	(wire
 		(pts
@@ -5059,16 +4985,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 256.54) (xy 73.66 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7604ee2-8c7e-43fe-9dec-a8418ffd032f")
-	)
-	(wire
-		(pts
 			(xy 74.93 175.26) (xy 74.93 189.23)
 		)
 		(stroke
@@ -5409,16 +5325,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 245.11) (xy 83.82 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24307c4-fad2-4d68-8cac-46f3337fc3a4")
-	)
-	(wire
-		(pts
 			(xy 251.46 196.85) (xy 264.16 196.85)
 		)
 		(stroke
@@ -5506,16 +5412,6 @@
 			(type default)
 		)
 		(uuid "fbc54993-59e7-4d30-8f0d-3740bf0b15dd")
-	)
-	(wire
-		(pts
-			(xy 83.82 256.54) (xy 83.82 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc67581-36a2-435b-9f0d-1f5fef5ef0de")
 	)
 	(wire
 		(pts
@@ -5614,76 +5510,6 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 82.55 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19eabfab-164c-457a-8fc2-6b88a6ff8d2e")
-		(property "Reference" "R16"
-			(at 85.09 40.6399 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 85.09 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 82.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 82.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec38ff96-0afe-449f-b7cc-1637f222d61f")
-		)
-		(pin "1"
-			(uuid "cb739d01-5669-400a-a87b-402f8e56537a")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5848,7 +5674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 76.2 242.5699 0)
 			(effects
 				(font
@@ -6540,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 76.2 49.5301 0)
 			(effects
 				(font
@@ -8312,76 +8138,6 @@
 			(project ""
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 83.82 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e00dac30-4d14-4fa5-a4f6-efef3d962c7c")
-		(property "Reference" "R15"
-			(at 86.36 251.4599 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 86.36 253.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 83.82 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 83.82 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd11b907-09c3-4bbd-be12-be8dcdaf4784")
-		)
-		(pin "1"
-			(uuid "026a3f41-4988-4104-bdde-4bcbef082ff1")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "R15")
 					(unit 1)
 				)
 			)
