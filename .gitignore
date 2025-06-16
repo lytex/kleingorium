@@ -1,2 +1,6 @@
 *.lck
 _autosave*
+fp-info-cache
+*.zip
+kleingorium-backups/
+kleingorium_20250427163006-backups/
