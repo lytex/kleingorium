@@ -25139,7 +25139,7 @@
 		(descr "Through hole straight pin header, 2x12, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x12 2.54mm double row")
 		(property "Reference" "J1"
-			(at 4.845 -0.22 180)
+			(at 2.665 -1.99 180)
 			(layer "F.SilkS")
 			(uuid "9622758b-71ff-4683-91ed-3cfcc6ae7a44")
 			(effects
@@ -90486,6 +90486,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Integral"
+		(at 140.2 49.4 0)
+		(layer "F.SilkS")
+		(uuid "1ae35224-2d4c-40aa-8b75-6def0d3597e3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Rst"
 		(at 174.795 99.13 90)
 		(layer "F.SilkS")
@@ -90565,7 +90578,7 @@
 		)
 	)
 	(gr_text "kleingorium v1"
-		(at 150 98 0)
+		(at 148.2 97.8 0)
 		(layer "F.SilkS")
 		(uuid "3df3342e-df9a-4406-80f5-f2d26fd14ed0")
 		(effects
@@ -90590,8 +90603,21 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Q0-Q9"
-		(at 155.915 139.54 0)
+	(gr_text "Proportional"
+		(at 137.6 146.2 0)
+		(layer "F.SilkS")
+		(uuid "4368a0cc-c434-4a06-8036-975f9d476450")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0 1 2 3 4 5 6 7 8 9"
+		(at 151.8 139.8 0)
 		(layer "F.SilkS")
 		(uuid "4a6dbc08-21ba-4d6e-b6f5-7aaee812271a")
 		(effects
@@ -90646,6 +90672,32 @@
 		(at 150.5 50 0)
 		(layer "F.SilkS")
 		(uuid "6254b6ef-7196-4be9-961f-dc28244ee292")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "9 8 7 6 5 4 3 2 1 0\n"
+		(at 96.4 56 0)
+		(layer "F.SilkS")
+		(uuid "6491b474-1e78-4e4e-b184-d0dbb219dd28")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Integral"
+		(at 124.6 146.2 0)
+		(layer "F.SilkS")
+		(uuid "67547739-4a14-40ae-ba17-9e24ea028fcc")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -90772,6 +90824,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 96.6 105.8 0)
+		(layer "F.SilkS")
+		(uuid "8ee0d637-e8b4-49ee-9d31-afebaba6f996")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "github.com/lytex/kleingorium"
 		(at 88 97.8 0)
 		(layer "F.SilkS")
@@ -90889,10 +90954,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Q0-Q9"
-		(at 109.5 55.5 0)
+	(gr_text "GND"
+		(at 88.47 146 0)
 		(layer "F.SilkS")
-		(uuid "df296a33-8285-4bc7-a2de-541733e1ca69")
+		(uuid "e57bce72-628b-4f41-815d-599d805d0f83")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -90902,10 +90967,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 88.47 146 0)
+	(gr_text "Proportional"
+		(at 122.4 49.4 0)
 		(layer "F.SilkS")
-		(uuid "e57bce72-628b-4f41-815d-599d805d0f83")
+		(uuid "e668a3fb-9a8f-4672-b218-d33e17b5e888")
 		(effects
 			(font
 				(size 1.5 1.5)
