@@ -4,3 +4,4 @@ fp-info-cache
 *.zip
 kleingorium-backups/
 kleingorium_20250427163006-backups/
+*auto_saved_files*
