@@ -10105,7 +10105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "2K"
 			(at 127.762 93.726 90)
 			(effects
 				(font
@@ -10639,7 +10639,7 @@
 		(dnp no)
 		(uuid "fe37b1bd-8ee5-4777-90f3-3f908c55d7c2")
 		(property "Reference" "RV1"
-			(at 119.3799 198.12 0)
+			(at 119.126 198.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,8 +10647,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
-			(at 121.9199 198.12 0)
+		(property "Value" "2K"
+			(at 119.126 195.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
