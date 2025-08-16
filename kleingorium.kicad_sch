@@ -2276,6 +2276,12 @@
 		(uuid "111bd206-8bad-4ad1-87c5-4ede40be52ad")
 	)
 	(junction
+		(at 76.2 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a3945b-4f20-450d-ac5f-7dfb5bce40fe")
+	)
+	(junction
 		(at 114.3 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2414,12 +2420,6 @@
 		(uuid "4a17a68a-2474-47a9-ae6b-3a3f3c2d171a")
 	)
 	(junction
-		(at 294.64 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d11048a-63c9-4755-b587-234fbc4cda18")
-	)
-	(junction
 		(at 264.16 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2504,6 +2504,12 @@
 		(uuid "5d13ddb6-1f7b-4377-aebc-1e84059e90bd")
 	)
 	(junction
+		(at 77.47 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0f0374-ff67-4092-a38f-2bded4f29e24")
+	)
+	(junction
 		(at 264.16 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2526,12 +2532,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "600b8d2d-4559-40ad-9f2f-31ab220929cc")
-	)
-	(junction
-		(at 294.64 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "608c28ff-554d-4214-8812-348442eab4e6")
 	)
 	(junction
 		(at 254 38.1)
@@ -2660,6 +2660,12 @@
 		(uuid "915e149e-8a8e-469c-8c28-7b5c24e9d448")
 	)
 	(junction
+		(at 77.47 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e0b2f1-f24c-499e-ac98-4e28ceaa69f7")
+	)
+	(junction
 		(at 110.49 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2742,6 +2748,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7da74ea-7bc9-48d2-bf31-503eb7d897e5")
+	)
+	(junction
+		(at 76.2 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9dfdd9d-78ac-42bd-89bf-6a77ae11c3ce")
 	)
 	(junction
 		(at 254 50.8)
@@ -2838,12 +2850,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e67e0078-8978-4f35-bebf-d5c3ada1a911")
-	)
-	(junction
-		(at 284.48 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7a24f73-efe6-409c-9c97-fcbc263cc0bd")
 	)
 	(junction
 		(at 264.16 107.95)
@@ -3413,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 163.83) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243dba88-31b2-4196-9f85-addc1f43aa23")
+	)
+	(wire
+		(pts
 			(xy 386.08 201.93) (xy 386.08 199.39)
 		)
 		(stroke
@@ -3720,16 +3736,6 @@
 			(type default)
 		)
 		(uuid "3e5d1c36-b162-40d5-b75c-9f6612fe4462")
-	)
-	(wire
-		(pts
-			(xy 294.64 201.93) (xy 294.64 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec3fa4c-0fd7-4ec2-beee-c2d186ec2e8e")
 	)
 	(wire
 		(pts
@@ -4103,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 80.01) (xy 276.86 80.01)
+			(xy 276.86 80.01) (xy 288.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4400,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "6d0a60eb-1896-417e-824b-74f3ee368731")
-	)
-	(wire
-		(pts
-			(xy 294.64 161.29) (xy 294.64 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e2c3400-6cc6-4b38-85d6-fb1d16960661")
 	)
 	(wire
 		(pts
@@ -4793,16 +4789,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 80.01) (xy 284.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d77917f-aa8e-495c-a90e-ed287c2862ab")
-	)
-	(wire
-		(pts
 			(xy 386.08 182.88) (xy 387.35 182.88)
 		)
 		(stroke
@@ -4860,16 +4846,6 @@
 			(type default)
 		)
 		(uuid "8f803b4e-20dc-46f5-a834-dc40d1397aa1")
-	)
-	(wire
-		(pts
-			(xy 288.29 80.01) (xy 288.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fdc08a1-906a-4b82-9531-4f3170b52f03")
 	)
 	(wire
 		(pts
@@ -5323,16 +5299,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 210.82) (xy 294.64 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7dbc9e-23db-4c13-9064-a4a8d2719839")
-	)
-	(wire
-		(pts
 			(xy 86.36 278.13) (xy 86.36 283.21)
 		)
 		(stroke
@@ -5410,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "c478f096-11a0-4ea8-9070-b82fb9f6c643")
+	)
+	(wire
+		(pts
+			(xy 76.2 128.27) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e756ad-b96b-4bd0-921c-71a9b8dcdb1a")
 	)
 	(wire
 		(pts
@@ -5743,7 +5719,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 210.82) (xy 294.64 212.09)
+			(xy 294.64 161.29) (xy 294.64 212.09)
 		)
 		(stroke
 			(width 0)
@@ -5770,16 +5746,6 @@
 			(type default)
 		)
 		(uuid "eab38da1-72d6-45e3-a8b4-ba599b9a83b8")
-	)
-	(wire
-		(pts
-			(xy 290.83 210.82) (xy 290.83 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4e40b0-3c7e-4647-b42d-75bde8b62066")
 	)
 	(wire
 		(pts
@@ -5893,16 +5859,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 85.09) (xy 284.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efec17d5-0c6c-49c6-868c-8ed2bd2d81a3")
-	)
-	(wire
-		(pts
 			(xy 264.16 100.33) (xy 276.86 100.33)
 		)
 		(stroke
@@ -5940,6 +5896,16 @@
 			(type default)
 		)
 		(uuid "f2afe9eb-e8be-468b-9d6f-f729aae70982")
+	)
+	(wire
+		(pts
+			(xy 63.5 128.27) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fe8b17-8f18-4f2f-9af3-530e351e1ef6")
 	)
 	(wire
 		(pts
@@ -6023,6 +5989,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 163.83) (xy 76.2 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb305a2e-2f2b-4be2-9f61-7e2d76f5f5bd")
+	)
+	(wire
+		(pts
 			(xy 50.8 59.69) (xy 146.05 59.69)
 		)
 		(stroke
@@ -6070,6 +6046,73 @@
 			(type default)
 		)
 		(uuid "ffd641ce-5619-4f80-87dd-3db9f1a2f790")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 68.58 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01398c21-7b23-429b-81b8-32fb4e0169f7")
+		(property "Reference" "J25"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4017 Fdbk"
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb446486-1938-4b93-b542-78cdf24763d6")
+		)
+		(pin "2"
+			(uuid "fc33f113-836f-44b4-8173-ceeadd483843")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
@@ -7392,79 +7435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 290.83 201.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54badc04-3d49-4a10-a98b-b72c136ad3e3")
-		(property "Reference" "RV3"
-			(at 288.29 203.2001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 288.29 200.6601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 290.83 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trim-potentiometer"
-			(at 290.83 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "82aaa6af-0ff8-4dbc-a9c4-f494fe699cdc")
-		)
-		(pin "1"
-			(uuid "b0ed8164-3e3d-4d1d-b027-c96a81c22f73")
-		)
-		(pin "3"
-			(uuid "671cf569-1edf-4eeb-ae83-1230c4e068c6")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 35.56 0)
 		(mirror x)
@@ -7732,71 +7702,6 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 290.83 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c9bbe8d-e3d9-42c5-a4ba-ab597c02b666")
-		(property "Reference" "#PWR013"
-			(at 290.83 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 294.132 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 290.83 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf2a7444-8b96-4782-a827-59061383cdab")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8367,71 +8272,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 288.29 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91308e19-b02c-4a32-8c0f-1456a476cc4d")
-		(property "Reference" "#PWR015"
-			(at 288.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 284.988 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 288.29 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 288.29 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6964e8db-a9e7-4563-80d3-a3d48f5ed588")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x12_Odd_Even")
 		(at 269.24 196.85 0)
 		(unit 1)
@@ -8714,79 +8554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 288.29 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2e18777-1c58-4b99-b653-83d93c3f3239")
-		(property "Reference" "RV4"
-			(at 290.83 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 290.83 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 288.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trim-potentiometer"
-			(at 288.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1d3e474-ecdd-40b2-82e0-b1fdf8f024ba")
-		)
-		(pin "1"
-			(uuid "62995e23-0ab6-4696-a23c-dc0b3fe25300")
-		)
-		(pin "3"
-			(uuid "fa779d9d-b0e5-4ce8-a2aa-23b3af978bba")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 60.96 250.19 90)
 		(unit 1)
@@ -8985,6 +8752,73 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 68.58 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b20a38e6-3c66-40de-b50f-8760d58ef9dc")
+		(property "Reference" "J26"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4017 Fdbk"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "801f983b-09ad-475e-9707-091129b40385")
+		)
+		(pin "2"
+			(uuid "b1aa5ff4-0cd5-4bd7-9981-4b2842f1226a")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
+					(reference "J26")
 					(unit 1)
 				)
 			)

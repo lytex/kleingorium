@@ -1,5 +1,5 @@
 Drill report for kleingorium.kicad_pcb
-Created on 2025-08-09T19:23:18+0200
+Created on 2025-08-16T12:52:55+0200
 
 Copper Layer Stackup:
     =============================================================
@@ -10,12 +10,12 @@ Copper Layer Stackup:
 Drill file 'kleingorium-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (42 holes)
+    T1  0.300mm  0.0118"  (48 holes)
     T2  0.800mm  0.0315"  (266 holes)
     T3  0.900mm  0.0354"  (12 holes)
-    T4  1.000mm  0.0394"  (148 holes)
+    T4  1.000mm  0.0394"  (154 holes)
 
-    Total plated holes count 468
+    Total plated holes count 480
 
 
 Drill file 'kleingorium-NPTH.drl' contains
