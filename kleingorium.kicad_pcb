@@ -93631,7 +93631,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "kleingorium v1.1"
+	(gr_text "kleingorium v1.2"
 		(at 147.06 97.73 0)
 		(layer "F.SilkS")
 		(uuid "3df3342e-df9a-4406-80f5-f2d26fd14ed0")
