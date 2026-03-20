@@ -386,6 +386,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -511,7 +651,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDA"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -532,7 +672,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -558,7 +698,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -576,7 +716,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -590,7 +730,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -612,7 +752,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
+		(symbol "power:VDDA"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -633,7 +773,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VCC"
+			(property "Value" "VDDA"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -659,7 +799,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -677,7 +817,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VCC_0_1"
+			(symbol "VDDA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -715,7 +855,7 @@
 					)
 				)
 			)
-			(symbol "VCC_1_1"
+			(symbol "VDDA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -914,93 +1054,16 @@
 		)
 		(uuid "b3fca4fd-76cc-44af-b631-cabb95208777")
 	)
-	(hierarchical_label "Q5"
+	(hierarchical_label "Q4"
 		(shape input)
-		(at 152.4 69.85 0)
+		(at 152.4 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "01e2b030-97fd-4d89-88f7-97206f746571")
-	)
-	(hierarchical_label "Q6"
-		(shape input)
-		(at 152.4 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02e6e276-7ee2-4eaf-aaee-7bdad02c7f10")
-	)
-	(hierarchical_label "Q11"
-		(shape input)
-		(at 152.4 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "18a6365b-0c45-46ac-b8ff-b643717f693d")
-	)
-	(hierarchical_label "Q10"
-		(shape input)
-		(at 152.4 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1bba1440-c85a-4cf9-8e41-28fd7d47a82b")
-	)
-	(hierarchical_label "Q9"
-		(shape input)
-		(at 152.4 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cb40ae7-2641-4574-ba77-cf6ec6564415")
-	)
-	(hierarchical_label "Q1"
-		(shape input)
-		(at 152.4 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23fd73ec-86df-4a9b-a85a-e1483748f49f")
-	)
-	(hierarchical_label "Q2"
-		(shape input)
-		(at 152.4 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28417909-2d8b-4400-8fb8-bc5e697c0573")
-	)
-	(hierarchical_label "Reset"
-		(shape input)
-		(at 109.22 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "355da021-6a7e-43f9-a4b5-7c9d12fcb75d")
+		(uuid "0b1ab44f-f3a6-4408-ac73-901e8e41d57d")
 	)
 	(hierarchical_label "Q7"
 		(shape input)
@@ -1011,40 +1074,51 @@
 			)
 			(justify left)
 		)
-		(uuid "540ee3ca-6104-40d7-991b-9ce2651cc331")
+		(uuid "12552e8a-cf28-4a05-931e-32439a46d4e6")
 	)
-	(hierarchical_label "Clock"
+	(hierarchical_label "Q10"
 		(shape input)
-		(at 109.22 57.15 180)
+		(at 152.4 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2234995b-e171-4ef1-be72-244482b4a043")
+	)
+	(hierarchical_label "Q9"
+		(shape input)
+		(at 152.4 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b36d6f9-45d9-4e29-9af1-5164708efe7c")
+	)
+	(hierarchical_label "Q5"
+		(shape input)
+		(at 152.4 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ad0832a-3fa2-49ce-81c7-504bd5228089")
+	)
+	(hierarchical_label "Reset"
+		(shape input)
+		(at 109.22 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7688ef91-af20-4e07-8b6a-1a522376bcfc")
-	)
-	(hierarchical_label "Q3"
-		(shape input)
-		(at 152.4 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e4751e9-ce7d-41ed-bb8a-221464f651db")
-	)
-	(hierarchical_label "Q4"
-		(shape input)
-		(at 152.4 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d0eacca-34f8-4a5f-974a-9f58dfaff131")
+		(uuid "7c503f9d-3f03-403f-a419-8a5b5a00178a")
 	)
 	(hierarchical_label "Q8"
 		(shape input)
@@ -1055,7 +1129,62 @@
 			)
 			(justify left)
 		)
-		(uuid "c23f5aeb-3584-4383-b01d-5eb829c08aac")
+		(uuid "80086be5-5005-4e22-ac5b-a6afd8343bd6")
+	)
+	(hierarchical_label "Clock"
+		(shape input)
+		(at 109.22 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "941f27d8-f887-4bba-a778-e8f5e98fe4ed")
+	)
+	(hierarchical_label "Q6"
+		(shape input)
+		(at 152.4 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa969703-ecb0-4423-a6df-83fc426c2e5b")
+	)
+	(hierarchical_label "Q3"
+		(shape input)
+		(at 152.4 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab529d4b-b3c8-43d6-9d05-7ffe4c027ad1")
+	)
+	(hierarchical_label "Q2"
+		(shape input)
+		(at 152.4 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c491061f-e6f1-4ceb-adc8-d3e78b937a15")
+	)
+	(hierarchical_label "Q11"
+		(shape input)
+		(at 152.4 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c94ccdb4-0e05-4026-8966-58e25b9d9cb6")
 	)
 	(hierarchical_label "Q0"
 		(shape input)
@@ -1066,20 +1195,31 @@
 			)
 			(justify left)
 		)
-		(uuid "fecbbdfe-70f6-40ca-833d-330f8dd4afdc")
+		(uuid "cde0e5cb-6727-471a-9877-2ee9ae7d568b")
+	)
+	(hierarchical_label "Q1"
+		(shape input)
+		(at 152.4 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb408237-c0d0-4739-917b-24a3fd1b1822")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 133.35 49.53 0)
+		(lib_id "power:VDDA")
+		(at 151.13 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21dc299b-6a87-42bc-9afc-baaefc835840")
-		(property "Reference" "#PWR021"
-			(at 133.35 53.34 0)
+		(uuid "203e7977-7e0d-4f7a-b8bb-a60684cfb411")
+		(property "Reference" "#PWR079"
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,8 +1227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 133.35 44.45 0)
+		(property "Value" "VDDA"
+			(at 151.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 49.53 0)
+			(at 151.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 49.53 0)
+			(at 151.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,8 +1253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 133.35 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 151.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,23 +1263,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "19eb228d-631c-4fc1-8dd0-5e9ccd6b70b4")
+			(uuid "22e6d275-bf47-42a4-b2ad-fe84f3a3aa5e")
 		)
 		(instances
 			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/52c73a40-bd38-49e3-8e94-4048d0c90ea6"
-					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/6ef5057d-5d74-4c3b-b2d1-eb9e2a0d3641"
-					(reference "#PWR021")
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 116.84 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1147,8 +1283,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2eb5190b-41df-498a-80da-a7ecd705853e")
-		(property "Reference" "#PWR020"
+		(uuid "355d3bb1-6d14-48fc-8c49-cbfddff91513")
+		(property "Reference" "#PWR064"
 			(at 116.84 99.06 0)
 			(effects
 				(font
@@ -1157,7 +1293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -1183,7 +1319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 116.84 92.71 0)
 			(effects
 				(font
@@ -1193,23 +1329,220 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f7a52f4-c153-4bb0-9821-c5c66e312d9c")
+			(uuid "7d7d040f-183c-4a6b-937f-ef88ac551e06")
 		)
 		(instances
 			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/52c73a40-bd38-49e3-8e94-4048d0c90ea6"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/6ef5057d-5d74-4c3b-b2d1-eb9e2a0d3641"
-					(reference "#PWR020")
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
+		(at 151.13 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "379aaddc-775d-48ce-9df3-c7e2d2b063d1")
+		(property "Reference" "#PWR080"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "069ecec6-c1e2-4c6b-8057-0e4d355deabb")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 133.35 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c921a44-efde-4d22-a947-a8ff972ff373")
+		(property "Reference" "#PWR065"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a346c7-801a-42b4-810b-d635094fa2b4")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7af0322e-ba50-4d3d-88d7-0dfe0345e64b")
+		(property "Reference" "C21"
+			(at 151.638 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 153.416 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 151.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72563514-c0f6-4e63-bb31-8e1b601e2f25")
+		)
+		(pin "1"
+			(uuid "c50317b4-c178-46a4-9606-50b50e7b9bd7")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 133.35 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1217,8 +1550,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e21afcf-2358-4fa6-8bfc-4e659759ce50")
-		(property "Reference" "#PWR022"
+		(uuid "7c484c2b-1125-49c7-8f19-cb683bc0063d")
+		(property "Reference" "#PWR066"
 			(at 133.35 99.06 0)
 			(effects
 				(font
@@ -1227,7 +1560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -1253,7 +1586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -1263,16 +1596,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9492936-e270-420b-a5a4-fc2025526820")
+			(uuid "39f27033-758f-4ccc-b7fb-3c075f7cce51")
 		)
 		(instances
 			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/52c73a40-bd38-49e3-8e94-4048d0c90ea6"
-					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/6ef5057d-5d74-4c3b-b2d1-eb9e2a0d3641"
-					(reference "#PWR022")
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1287,8 +1616,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7bc94e13-16e0-412c-89d4-14781457d344")
-		(property "Reference" "U3"
+		(uuid "7d9594c0-d56f-40ba-9600-fed2e3f5ab8b")
+		(property "Reference" "U11"
 			(at 135.4933 49.53 0)
 			(effects
 				(font
@@ -1383,12 +1712,8 @@
 		)
 		(instances
 			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/52c73a40-bd38-49e3-8e94-4048d0c90ea6"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/6ef5057d-5d74-4c3b-b2d1-eb9e2a0d3641"
-					(reference "U3")
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1403,8 +1728,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9967885-6a88-4ab6-b622-8972cc1ed0a0")
-		(property "Reference" "R12"
+		(uuid "c5299bd0-efd8-4473-b196-5e8edd4418d6")
+		(property "Reference" "R33"
 			(at 119.38 74.9299 0)
 			(effects
 				(font
@@ -1457,12 +1782,8 @@
 		)
 		(instances
 			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/52c73a40-bd38-49e3-8e94-4048d0c90ea6"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/6ef5057d-5d74-4c3b-b2d1-eb9e2a0d3641"
-					(reference "R12")
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/44f3fb3f-0223-4473-937a-c9802bdd1286/db9deaae-3d85-4b5a-acd7-6f2d9708e905"
+					(reference "R33")
 					(unit 1)
 				)
 			)

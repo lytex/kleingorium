@@ -149,22 +149,28 @@
 		)
 	)
 	(junction
-		(at 370.84 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb93830-0ea1-4db1-a6b4-a5fc7164b4f0")
-	)
-	(junction
 		(at 386.08 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290bd2bd-d10e-49f2-b3fd-cb7d9c6a781c")
 	)
 	(junction
-		(at 386.08 185.42)
+		(at 400.05 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b6c033a-c8f5-4146-86e8-057b2a17ee08")
+		(uuid "2b47de2c-21e3-45b6-8516-df5be8071b15")
+	)
+	(junction
+		(at 387.35 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e169b3-fa5b-44b3-899a-3caee1d33189")
+	)
+	(junction
+		(at 387.35 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a07509-f402-43c4-83de-256425a20571")
 	)
 	(junction
 		(at 386.08 199.39)
@@ -186,17 +192,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 182.88) (xy 386.08 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c23a81-21bb-4e9d-942a-3941ccde777d")
-	)
-	(wire
-		(pts
-			(xy 400.05 201.93) (xy 386.08 201.93)
+			(xy 387.35 199.39) (xy 400.05 199.39)
 		)
 		(stroke
 			(width 0)
@@ -206,47 +202,17 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 199.39) (xy 386.08 199.39)
+			(xy 386.08 182.88) (xy 386.08 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13f75fef-fde3-4a92-beba-dc44823c436f")
+		(uuid "1852655e-8caa-424a-8904-67d9ce2bc196")
 	)
 	(wire
 		(pts
-			(xy 370.84 201.93) (xy 370.84 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d9822a0-12f2-4d98-9669-d4ece3888074")
-	)
-	(wire
-		(pts
-			(xy 400.05 199.39) (xy 400.05 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "232a0e05-049a-429b-ac2b-1b3416f41775")
-	)
-	(wire
-		(pts
-			(xy 386.08 201.93) (xy 386.08 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a2213a-af19-4869-a92b-d194cc078cc3")
-	)
-	(wire
-		(pts
-			(xy 400.05 182.88) (xy 400.05 185.42)
+			(xy 400.05 182.88) (xy 401.32 182.88)
 		)
 		(stroke
 			(width 0)
@@ -256,13 +222,43 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 201.93) (xy 370.84 201.93)
+			(xy 358.14 199.39) (xy 370.84 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d36fa66-230c-4a06-862b-cc83819b4238")
+	)
+	(wire
+		(pts
+			(xy 384.81 199.39) (xy 386.08 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5815c19f-26c4-4500-8823-5fbd883c621c")
+	)
+	(wire
+		(pts
+			(xy 400.05 182.88) (xy 387.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5b240d-4b2d-4a66-a4fb-791be0e505e7")
+	)
+	(wire
+		(pts
+			(xy 387.35 182.88) (xy 386.08 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ca1251-c50c-4bd3-bc25-5f66a56c92e6")
 	)
 	(wire
 		(pts
@@ -276,13 +272,13 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 185.42) (xy 386.08 185.42)
+			(xy 387.35 199.39) (xy 386.08 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c56d5da-b1e7-4e29-8594-82ee1c066fdf")
+		(uuid "6f36e6dd-2879-4436-a3c6-7fe202b07335")
 	)
 	(wire
 		(pts
@@ -296,63 +292,13 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 185.42) (xy 386.08 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6241ee-016f-423f-8e21-ef866cd9afc8")
-	)
-	(wire
-		(pts
-			(xy 386.08 182.88) (xy 387.35 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d8d9e8a-b6e8-4f0a-a5d8-9fc58d001a7c")
-	)
-	(wire
-		(pts
-			(xy 358.14 182.88) (xy 358.14 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94a13ef4-efb5-4637-851b-fbd55523915f")
-	)
-	(wire
-		(pts
-			(xy 370.84 182.88) (xy 370.84 185.42)
+			(xy 370.84 182.88) (xy 370.84 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ecc74e0-f9b1-4a53-a0a6-ba4d69718a6f")
-	)
-	(wire
-		(pts
-			(xy 358.14 199.39) (xy 358.14 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0155d69-d1bb-4fb4-9d05-84f4afd7e721")
-	)
-	(wire
-		(pts
-			(xy 370.84 185.42) (xy 370.84 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d37741-785b-45d3-acc3-0ce0aa07b037")
 	)
 	(wire
 		(pts
@@ -366,23 +312,13 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 185.42) (xy 370.84 185.42)
+			(xy 358.14 182.88) (xy 370.84 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e73c0d57-9f54-41f9-b3d1-2b71d14edec5")
-	)
-	(wire
-		(pts
-			(xy 386.08 199.39) (xy 387.35 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef158794-eafe-4446-98db-373368fbf1cc")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
@@ -394,7 +330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e46abc2-b2ec-4e80-a0a2-0cf27baf2948")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at 364.49 176.53 0)
 			(effects
 				(font
@@ -446,7 +382,7 @@
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "J10")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -461,7 +397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a467ecb1-96f3-4bd8-b1e2-0f942da4fa1c")
-		(property "Reference" "J24"
+		(property "Reference" "J4"
 			(at 393.7 193.04 0)
 			(effects
 				(font
@@ -513,7 +449,7 @@
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "J24")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -529,7 +465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cde435b9-937c-4ee1-a0e5-c29323b70a2a")
-		(property "Reference" "J23"
+		(property "Reference" "J2"
 			(at 364.49 193.04 0)
 			(effects
 				(font
@@ -581,7 +517,7 @@
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "J23")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -596,7 +532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef76ec7b-5f51-48e9-8c0d-cce8656799d2")
-		(property "Reference" "J11"
+		(property "Reference" "J3"
 			(at 393.7 176.53 0)
 			(effects
 				(font
@@ -648,7 +584,7 @@
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -716,12 +652,13 @@
 		)
 	)
 	(sheet
-		(at 330.2 179.07)
-		(size 12.7 3.81)
+		(at 290.83 181.61)
+		(size 22.86 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -729,9 +666,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "747b89e0-15ce-4a55-8b8e-4a6a0b3faa74")
-		(property "Sheetname" "utilities"
-			(at 330.2 178.3584 0)
+		(uuid "44f3fb3f-0223-4473-937a-c9802bdd1286")
+		(property "Sheetname" "Top Plate"
+			(at 290.83 180.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,8 +676,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "utilities.kicad_sch"
-			(at 331.724 184.404 0)
+		(property "Sheetfile" "top_plate.kicad_sch"
+			(at 290.83 201.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +694,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 257.81)
+		(at 245.11 175.26)
 		(size 19.05 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -773,7 +710,7 @@
 		)
 		(uuid "ad1f1d92-237d-4bc3-883c-2ce266dd223f")
 		(property "Sheetname" "Multiplier-Divider"
-			(at 39.37 257.0984 0)
+			(at 245.11 174.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +719,7 @@
 			)
 		)
 		(property "Sheetfile" "multiplier_divider.kicad_sch"
-			(at 39.37 273.6346 0)
+			(at 245.11 191.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +730,49 @@
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
-					(page "13")
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 290.83 210.82)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f24cd694-7269-45a2-849b-37748504d3d5")
+		(property "Sheetname" "Bottom plate"
+			(at 290.83 210.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bottom_plate.kicad_sch"
+			(at 290.83 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd"
+					(page "14")
 				)
 			)
 		)
