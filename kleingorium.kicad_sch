@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "01c1f2c1-4d06-4880-847a-9ab55552e3fd")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
 			(pin_names
@@ -149,50 +149,50 @@
 		)
 	)
 	(junction
-		(at 386.08 182.88)
+		(at 177.8 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290bd2bd-d10e-49f2-b3fd-cb7d9c6a781c")
 	)
 	(junction
-		(at 400.05 182.88)
+		(at 191.77 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b47de2c-21e3-45b6-8516-df5be8071b15")
 	)
 	(junction
-		(at 387.35 182.88)
+		(at 179.07 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31e169b3-fa5b-44b3-899a-3caee1d33189")
 	)
 	(junction
-		(at 387.35 199.39)
+		(at 179.07 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99a07509-f402-43c4-83de-256425a20571")
 	)
 	(junction
-		(at 386.08 199.39)
+		(at 177.8 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0b3b4be-3d2a-4c9e-8d44-6b0ab3c02ddb")
 	)
 	(junction
-		(at 370.84 199.39)
+		(at 162.56 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee24524b-3a84-4bc8-933a-b8c670fbb6a2")
 	)
 	(junction
-		(at 370.84 182.88)
+		(at 162.56 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eecb9c75-50ec-4f95-b680-c1b38a13de41")
 	)
 	(wire
 		(pts
-			(xy 387.35 199.39) (xy 400.05 199.39)
+			(xy 179.07 59.69) (xy 191.77 59.69)
 		)
 		(stroke
 			(width 0)
@@ -202,7 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 182.88) (xy 386.08 199.39)
+			(xy 177.8 43.18) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -212,7 +212,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 182.88) (xy 401.32 182.88)
+			(xy 191.77 43.18) (xy 193.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -222,7 +222,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 199.39) (xy 370.84 199.39)
+			(xy 149.86 59.69) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -232,7 +232,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 199.39) (xy 386.08 199.39)
+			(xy 176.53 59.69) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -242,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 182.88) (xy 387.35 182.88)
+			(xy 191.77 43.18) (xy 179.07 43.18)
 		)
 		(stroke
 			(width 0)
@@ -252,7 +252,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 182.88) (xy 386.08 182.88)
+			(xy 179.07 43.18) (xy 177.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -262,7 +262,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 199.39) (xy 372.11 199.39)
+			(xy 162.56 59.69) (xy 163.83 59.69)
 		)
 		(stroke
 			(width 0)
@@ -272,7 +272,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 199.39) (xy 386.08 199.39)
+			(xy 179.07 59.69) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 182.88) (xy 386.08 182.88)
+			(xy 176.53 43.18) (xy 177.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 182.88) (xy 370.84 199.39)
+			(xy 162.56 43.18) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -302,7 +302,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 182.88) (xy 372.11 182.88)
+			(xy 162.56 43.18) (xy 163.83 43.18)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 182.88) (xy 370.84 182.88)
+			(xy 149.86 43.18) (xy 162.56 43.18)
 		)
 		(stroke
 			(width 0)
@@ -322,7 +322,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 363.22 182.88 0)
+		(at 154.94 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -331,7 +331,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e46abc2-b2ec-4e80-a0a2-0cf27baf2948")
 		(property "Reference" "J1"
-			(at 364.49 176.53 0)
+			(at 156.21 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,7 +339,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 364.49 179.07 0)
+			(at 156.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +347,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 363.22 182.88 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 182.88 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +365,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 363.22 182.88 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +390,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 392.43 199.39 0)
+		(at 184.15 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -398,7 +398,7 @@
 		(dnp no)
 		(uuid "a467ecb1-96f3-4bd8-b1e2-0f942da4fa1c")
 		(property "Reference" "J4"
-			(at 393.7 193.04 0)
+			(at 185.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 393.7 195.58 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +414,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 392.43 199.39 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 199.39 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,7 +432,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 392.43 199.39 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +457,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 363.22 199.39 0)
+		(at 154.94 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -466,7 +466,7 @@
 		(fields_autoplaced yes)
 		(uuid "cde435b9-937c-4ee1-a0e5-c29323b70a2a")
 		(property "Reference" "J2"
-			(at 364.49 193.04 0)
+			(at 156.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +474,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 364.49 195.58 0)
+			(at 156.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +482,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 363.22 199.39 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 199.39 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +500,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 363.22 199.39 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +525,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 392.43 182.88 0)
+		(at 184.15 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -533,7 +533,7 @@
 		(dnp no)
 		(uuid "ef76ec7b-5f51-48e9-8c0d-cce8656799d2")
 		(property "Reference" "J3"
-			(at 393.7 176.53 0)
+			(at 185.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 393.7 179.07 0)
+			(at 185.42 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +549,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 392.43 182.88 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,7 +558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 182.88 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +567,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 392.43 182.88 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +591,7 @@
 		)
 	)
 	(sheet
-		(at 372.11 180.34)
+		(at 163.83 40.64)
 		(size 12.7 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -606,7 +606,7 @@
 		)
 		(uuid "3ee3ba2e-f83c-4d97-8875-a2d65fcd8e09")
 		(property "Sheetname" "power"
-			(at 372.11 179.6284 0)
+			(at 163.83 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +615,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 371.348 176.53 0)
+			(at 163.068 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +624,7 @@
 			)
 		)
 		(pin "gnd" input
-			(at 384.81 182.88 0)
+			(at 176.53 43.18 0)
 			(uuid "ebee6816-1723-4fd4-a689-fb4a3351e4ac")
 			(effects
 				(font
@@ -634,7 +634,7 @@
 			)
 		)
 		(pin "vcc" input
-			(at 372.11 182.88 180)
+			(at 163.83 43.18 180)
 			(uuid "b83ca1a8-9a05-46ba-9c6d-381f2b763737")
 			(effects
 				(font
@@ -652,7 +652,7 @@
 		)
 	)
 	(sheet
-		(at 290.83 181.61)
+		(at 82.55 41.91)
 		(size 22.86 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -668,7 +668,7 @@
 		)
 		(uuid "44f3fb3f-0223-4473-937a-c9802bdd1286")
 		(property "Sheetname" "Top Plate"
-			(at 290.83 180.8984 0)
+			(at 82.55 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "Sheetfile" "top_plate.kicad_sch"
-			(at 290.83 201.2446 0)
+			(at 82.55 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +694,7 @@
 		)
 	)
 	(sheet
-		(at 245.11 175.26)
+		(at 36.83 35.56)
 		(size 19.05 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -710,7 +710,7 @@
 		)
 		(uuid "ad1f1d92-237d-4bc3-883c-2ce266dd223f")
 		(property "Sheetname" "Multiplier-Divider"
-			(at 245.11 174.5484 0)
+			(at 36.83 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +719,7 @@
 			)
 		)
 		(property "Sheetfile" "multiplier_divider.kicad_sch"
-			(at 245.11 191.0846 0)
+			(at 36.83 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +736,7 @@
 		)
 	)
 	(sheet
-		(at 290.83 210.82)
+		(at 82.55 71.12)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -752,7 +752,7 @@
 		)
 		(uuid "f24cd694-7269-45a2-849b-37748504d3d5")
 		(property "Sheetname" "Bottom plate"
-			(at 290.83 210.1084 0)
+			(at 82.55 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +761,7 @@
 			)
 		)
 		(property "Sheetfile" "bottom_plate.kicad_sch"
-			(at 290.83 231.7246 0)
+			(at 82.55 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

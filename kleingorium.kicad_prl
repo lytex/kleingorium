@@ -1,39 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 35,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND",
-      "Net-(U2-C1)",
-      "VCC",
-      "Net-(C18-Pad1)",
-      "/Multiplier-Divider/4046 2/Comp",
-      "Net-(J12-Pin_1)",
-      "/Multiplier-Divider/4046 2/Inh",
-      "/Multiplier-Divider/4046/Inh",
-      "/Multiplier-Divider/4053 2/B",
-      "/Multiplier-Divider/4053/B",
-      "/Multiplier-Divider/4017/Clock",
-      "/Multiplier-Divider/4040 2/Clock",
-      "/Multiplier-Divider/4040 2/Reset",
-      "/Multiplier-Divider/4040/Reset",
-      "/Multiplier-Divider/4040/Clock",
-      "/Multiplier-Divider/4053 2/S3",
-      "/Multiplier-Divider/4053/S3",
-      "/Multiplier-Divider/4053 2/C",
-      "/Multiplier-Divider/4053/C",
-      "/Multiplier-Divider/4053 2/C0",
-      "/Multiplier-Divider/4053 2/C1",
-      "/Multiplier-Divider/4053/C0",
-      "/Multiplier-Divider/4053/C1",
-      "/Multiplier-Divider/4040 2/Q0",
-      "/Multiplier-Divider/4040 2/Q1",
-      "/Multiplier-Divider/4040 2/Q11",
-      "/Multiplier-Divider/4040 2/Q3",
-      "/Multiplier-Divider/4040 2/Q9"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -78,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_0200aa27",
+    "visible_layers": "00000000_00000000_0000000a_0200aa27",
     "zone_display_mode": 0
   },
   "git": {
