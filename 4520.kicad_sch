@@ -768,18 +768,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 63.5 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24abc7a3-c1ef-4fdd-895f-d9dd8354528d")
-	)
-	(junction
-		(at 63.5 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a2d9994-f5ed-42c1-a182-b1243a975f8f")
-	)
 	(wire
 		(pts
 			(xy 113.03 59.69) (xy 119.38 59.69)
@@ -832,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 54.61) (xy 87.63 54.61)
+			(xy 62.23 54.61) (xy 87.63 54.61)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 80.01) (xy 87.63 80.01)
+			(xy 62.23 80.01) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -899,26 +887,6 @@
 			(type default)
 		)
 		(uuid "ec37b236-dcd6-48c2-bdca-0c7e7974a897")
-	)
-	(wire
-		(pts
-			(xy 62.23 54.61) (xy 63.5 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec963de9-8fcf-43e5-8ca5-89b67332614c")
-	)
-	(wire
-		(pts
-			(xy 62.23 80.01) (xy 63.5 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1969cfb-8af2-47d1-ae75-514b3459956f")
 	)
 	(hierarchical_label "Q2A"
 		(shape output)
@@ -1138,142 +1106,6 @@
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
 					(reference "U4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bcb83ac-48d3-4f6a-a4eb-7dc972d17948")
-		(property "Reference" "#PWR026"
-			(at 63.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fafe3f7-2059-4f54-84bd-b88331b9aa6d")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 63.5 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e39b98b-7edc-4ec3-916f-e450eed97731")
-		(property "Reference" "R13"
-			(at 66.04 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 66.04 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 63.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 63.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "888bf10a-c151-4643-9a9e-62c0ff937596")
-		)
-		(pin "1"
-			(uuid "7feebc71-d068-4532-8b1c-0d2ca2d37378")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "R13")
-					(unit 1)
 				)
 			)
 		)
@@ -1547,76 +1379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 63.5 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9923be2e-f35b-4246-9f3d-a7fe6d3b32ac")
-		(property "Reference" "R14"
-			(at 66.04 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 66.04 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 63.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "65af346b-2ad1-4eaa-a9bb-5ce2c699c74f")
-		)
-		(pin "1"
-			(uuid "3265a757-11cf-43cd-b300-d41c822094c4")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 64.77 0)
 		(unit 1)
@@ -1677,72 +1439,6 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b9390c8-4586-4f7f-9a2b-b94178aaed01")
-		(property "Reference" "#PWR025"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d7582e6-fba6-460e-b6cf-cec44c5c6540")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

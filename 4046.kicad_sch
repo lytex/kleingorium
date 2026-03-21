@@ -2349,7 +2349,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R6"
+		(property "Value" "100k"
 			(at 184.15 80.0099 0)
 			(effects
 				(font
@@ -2495,14 +2495,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R5"
-			(at 184.15 68.5799 0)
+		(property "Value" "100k"
+			(at 195.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal"
