@@ -156,6 +156,10 @@
         [
           "courtyards_overlap|472525000|40770000|4bae7d36-8e25-4054-b3df-ab1f927dbfd2|71422ed2-57f7-4e0b-bad2-ec147da4fc3a",
           ""
+        ],
+        [
+          "courtyards_overlap|478105000|40770000|71422ed2-57f7-4e0b-bad2-ec147da4fc3a|734c6d97-dd63-4b91-b2e5-4963f871b98d",
+          ""
         ]
       ],
       "meta": {
@@ -797,7 +801,7 @@
         "uuid": "01c1f2c1-4d06-4880-847a-9ab55552e3fd"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J82",
     "variants": []
   },
   "sheets": [
