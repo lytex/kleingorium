@@ -5604,7 +5604,7 @@
 		)
 		(uuid "0eef81b6-0522-4813-823d-8c0ba738f70e")
 	)
-	(text "16x20 Matrix"
+	(text "18x20 Matrix"
 		(exclude_from_sim no)
 		(at 98.298 134.366 0)
 		(effects
