@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+VCC,"J60,J61",Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+GND,"J62,J63",Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+100nF,"C20,C22",Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,
+Osc Out,J42,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+Output,"J85,J86",Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,
+4017 Pins,"J66,J67",Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical,
+Select,"J48,J49",Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+100k,"R34,R35,R36,R37,R38,R39,R40,R41",Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+Conn_02x08_Odd_Even,"J43,J44,J45,J46,J47,J64",Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical,
+Conn_02x20_Odd_Even,"J73,J74,J75,J76,J77,J78,J79,J80,J81",Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,
+Conn_01x18,J88,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,
+4051,"U12,U13",Package_DIP:DIP-16_W7.62mm,
