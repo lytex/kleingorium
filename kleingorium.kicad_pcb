@@ -129123,6 +129123,42 @@
 		(layer "F.Fab")
 		(uuid "560f4b75-e8e3-4403-9b16-4bcc1c27da49")
 	)
+	(gr_text "https://github.com/lytex/kleingorium\nkleingorium v2.0"
+		(at 454.3 94.7 0)
+		(layer "F.SilkS")
+		(uuid "f19228c9-e1c0-468b-88ad-e2f3e1785f1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "https://github.com/lytex/kleingorium\nkleingorium v2.0"
+		(at 66 34.3 90)
+		(layer "F.SilkS")
+		(uuid "62db510a-84ec-4524-9e4f-78ec2796dbca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "https://github.com/lytex/kleingorium\nkleingorium v2.0"
+		(at 296.2 72.8 90)
+		(layer "F.SilkS")
+		(uuid "2d586cda-002e-4a6f-9b7c-b2d5f965e719")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "Clk"
 		(at 67 63.4 0)
 		(layer "F.SilkS")
