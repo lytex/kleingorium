@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "kleingorium") (type "KiCad") (uri "${KIPRJMOD}/kleingorium.pretty") (options "") (descr "Project-local custom footprints"))
+)
