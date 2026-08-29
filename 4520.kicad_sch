@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260826)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "06d36d32-8399-4b0d-9062-74a5abed83fe")
 	(paper "A4")
 	(lib_symbols
@@ -842,6 +842,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 85.09) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c01a2e7-91e3-4463-910f-72a08333cb32")
+	)
+	(wire
+		(pts
 			(xy 113.03 52.07) (xy 119.38 52.07)
 		)
 		(stroke
@@ -889,6 +899,16 @@
 			(type default)
 		)
 		(uuid "855fe757-8243-461a-8396-eed3171b9463")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.07) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a121b9-9d82-415c-ac6b-f9f8df3d7a2a")
 	)
 	(wire
 		(pts
@@ -942,6 +962,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 59.69) (xy 87.63 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35cfd2f-31e2-4243-9258-8468184c4c37")
+	)
+	(wire
+		(pts
 			(xy 113.03 82.55) (xy 119.38 82.55)
 		)
 		(stroke
@@ -949,6 +979,16 @@
 			(type default)
 		)
 		(uuid "ec37b236-dcd6-48c2-bdca-0c7e7974a897")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6aa9adf-cb07-43ac-8a21-3f5ab2e78239")
 	)
 	(hierarchical_label "Q2A"
 		(shape output)
@@ -1196,8 +1236,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 90.17 0)
+		(lib_id "Device:R_Small")
+		(at 86.36 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1205,31 +1245,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69803f4e-425c-4b63-83c5-c4e128890043")
-		(property "Reference" "#PWR030"
-			(at 87.63 96.52 0)
-			(hide yes)
+		(uuid "3956cf57-782f-4e8f-8165-36275d038860")
+		(property "Reference" "R17"
+			(at 81.28 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 87.63 95.25 0)
+		(property "Value" "100K"
+			(at 80.01 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 90.17 0)
+		(property "Footprint" "R_0805_2012Metric"
+			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1240,7 +1280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 90.17 0)
+			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,8 +1290,100 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 90.17 0)
+		(property "Description" ""
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3cf3c573-a405-40f4-9fa5-f8488a49a9c7")
+		)
+		(pin "1"
+			(uuid "2bad3c5f-fff1-4ee5-94a6-5fea50aaef7b")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 86.36 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b82d76c-04eb-40eb-a66b-410c2bf26d49")
+		(property "Reference" "#PWR085"
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 86.36 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 86.36 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1262,12 +1394,182 @@
 			)
 		)
 		(pin "1"
-			(uuid "0435dd86-d7e4-4c42-8004-7c9050ca5dd4")
+			(uuid "62d274a1-af99-4ac3-8877-fae738c4f8ea")
 		)
 		(instances
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "#PWR030")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 86.36 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe63495-982e-41b4-9de0-5217049f2c1f")
+		(property "Reference" "#PWR056"
+			(at 86.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 86.36 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06d9715d-789a-4db7-88d8-e597dd96b077")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 86.36 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "550ae681-7cff-4f90-834b-12533bb58a50")
+		(property "Reference" "R18"
+			(at 80.01 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 80.01 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R_0805_2012Metric"
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "877048d8-4ad7-4691-a27e-0b8f8d0e9976")
+		)
+		(pin "1"
+			(uuid "3dfda303-daf9-4971-8938-32d44e752b9c")
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1517,84 +1819,6 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99372de1-e9c5-4159-b2bb-58928121ad74")
-		(property "Reference" "#PWR029"
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "598eba08-c616-4796-8f3e-e39eafd6aeb4")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1983,99 +2207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 87.63 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1447e72-220b-427c-b358-7cad6faef832")
-		(property "Reference" "R18"
-			(at 90.17 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 90.17 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_0805_2012Metric"
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 87.63 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "322f7415-0208-426b-8491-36105302a9b9")
-		)
-		(pin "1"
-			(uuid "4e5eabd6-ae2c-434a-bd26-77029730ae1b")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4xxx:4520")
 		(at 100.33 54.61 0)
 		(unit 1)
@@ -2203,99 +2334,6 @@
 			(project "kleingorium"
 				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 87.63 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6545f67-9b5b-4ea6-a194-7a71d6de8841")
-		(property "Reference" "R17"
-			(at 90.17 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 90.17 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_0805_2012Metric"
-			(at 87.63 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 87.63 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "515f599f-1512-4c6e-8691-0b3cba694d76")
-		)
-		(pin "1"
-			(uuid "d5150ce5-e042-4738-a23d-1e35225d2954")
-		)
-		(instances
-			(project "kleingorium"
-				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4603ebcc-7781-42ba-9745-85abd346b0eb"
-					(reference "R17")
 					(unit 1)
 				)
 			)

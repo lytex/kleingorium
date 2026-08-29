@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20260206)
+	(version 20260828)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -60,6 +60,8 @@
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
+				(spec_frequency 1000000000)
+				(dielectric_model constant)
 			)
 			(layer "B.Cu"
 				(type "copper")
@@ -105,6 +107,8 @@
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
+			(pngdpi 300)
+			(pngantialias yes)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
@@ -69110,15 +69114,15 @@
 		(uuid "640a7701-9d5f-4c34-b3e0-9828220a661a")
 	)
 	(gr_circle
-		(center 4.895113 10)
-		(end 6.645113 10)
+		(center 5 10)
+		(end 6.75 10)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "dd35ee23-3da9-41d7-bec7-4817a402cf91")
+		(uuid "5e41cd28-5a21-4aac-a5de-67585e90608f")
 	)
 	(gr_circle
 		(center 5 90)
@@ -69129,7 +69133,18 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "eb96b5e3-a6e9-44d7-980b-58b02060c49f")
+		(uuid "d4a56313-f5bb-424c-ace5-0d68cabbce72")
+	)
+	(gr_circle
+		(center 95 10)
+		(end 96.75 10)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6f2dcc10-1cfb-4553-9d05-28ba379b0b78")
 	)
 	(gr_circle
 		(center 95 90)
@@ -69140,7 +69155,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "5a1efaf2-2674-438d-9eb2-5cef3f37a33e")
+		(uuid "c67b94e3-8e9b-4743-b272-782021e9edc9")
 	)
 	(gr_rect
 		(start 200 0)
@@ -69154,8 +69169,8 @@
 		(uuid "a3c73297-6193-466c-a114-29cdb7bbce06")
 	)
 	(gr_circle
-		(center 205 10)
-		(end 206.75 10)
+		(center 224.1 51.6)
+		(end 225.85 51.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -69165,8 +69180,8 @@
 		(uuid "bc540a0e-ae43-4b57-ba12-af7bb0db0b5f")
 	)
 	(gr_circle
-		(center 205 90)
-		(end 206.75 90)
+		(center 205 100)
+		(end 206.75 100)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -69176,8 +69191,8 @@
 		(uuid "d683d9b0-3f84-4a5b-be7e-c0c45b5447a3")
 	)
 	(gr_circle
-		(center 295 10)
-		(end 296.75 10)
+		(center 323.9 10)
+		(end 325.65 10)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -69187,8 +69202,8 @@
 		(uuid "41a40503-77f6-44eb-a769-9f6d10a39e18")
 	)
 	(gr_circle
-		(center 295 90)
-		(end 296.75 90)
+		(center 295 100)
+		(end 296.75 100)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -69217,7 +69232,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "f1b14e56-f73b-401f-8fc6-98616c3ea5ca")
+		(uuid "37609a13-7fdd-4d4e-848a-525a6f2665b4")
 	)
 	(gr_circle
 		(center 405 90)
@@ -69228,7 +69243,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "65858bb5-539a-48da-b5fd-8903038c17e3")
+		(uuid "87c2d626-a839-43e9-8af9-dddf98177269")
 	)
 	(gr_circle
 		(center 495 10)
@@ -69239,7 +69254,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "b9c71fa2-402e-4625-b42f-d1c04a8cd22f")
+		(uuid "1240e821-1f92-4d33-b2e7-4eb32bae3399")
 	)
 	(gr_circle
 		(center 495 90)
@@ -69250,7 +69265,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "98f473a3-385c-462b-898b-f8f7e39b8444")
+		(uuid "babc6071-ec95-4281-8194-e539165f81d2")
 	)
 	(gr_circle
 		(center 236.9566 12.6238)
@@ -69293,6 +69308,126 @@
 		)
 		(layer "F.Fab")
 		(uuid "560f4b75-e8e3-4403-9b16-4bcc1c27da49")
+	)
+	(gr_line
+		(start 5 10)
+		(end 95 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "7c5247b5-d1e4-41cc-828b-18cc20514cce")
+	)
+	(gr_line
+		(start 5 90)
+		(end 5 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "3bb2cdf9-6726-4cfb-8520-03d189812389")
+	)
+	(gr_line
+		(start 5 90)
+		(end 95 90)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "8439fb25-b233-4477-abef-12f3fe5bbd53")
+	)
+	(gr_line
+		(start 95 10)
+		(end 95 90)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "16d04b9c-5f61-4e11-81ca-2be0e25e4e64")
+	)
+	(gr_line
+		(start 205 10)
+		(end 295 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "092b57e3-818d-46de-aa69-544bd95dd878")
+	)
+	(gr_line
+		(start 205 90)
+		(end 205 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "479a75e0-874d-497c-a840-6aaa7d821d5f")
+	)
+	(gr_line
+		(start 205 90)
+		(end 295 90)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "14f5a06f-3dd9-4c8b-bdc0-072d1007bba0")
+	)
+	(gr_line
+		(start 295 10)
+		(end 295 90)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "32bd6110-0479-4441-ada3-5ef709c249b9")
+	)
+	(gr_line
+		(start 405 10)
+		(end 495 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "e1b35f2e-68d8-4064-88b4-057ff328ce72")
+	)
+	(gr_line
+		(start 405 90)
+		(end 405 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "506d8311-4aa4-435b-9e74-c1c5ed939f14")
+	)
+	(gr_line
+		(start 405 90)
+		(end 495 90)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "828eddf0-5bb6-408a-a74f-977b59aa56f8")
+	)
+	(gr_line
+		(start 495 10)
+		(end 495 90)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "8671e3f4-ac60-4edb-b825-34e0b1fde771")
 	)
 	(gr_text "https://github.com/lytex/kleingorium\nkleingorium v2.0"
 		(at 454.3 94.7 0)
@@ -69337,7 +69472,7 @@
 		(effects
 			(font
 				(size 1.8 1.6)
-				(thickness 0.3)
+				(thickness 0.1875)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69350,7 +69485,7 @@
 		(effects
 			(font
 				(size 1.8 1.6)
-				(thickness 0.3)
+				(thickness 0.1875)
 				(bold yes)
 			)
 			(justify right bottom)
@@ -69363,7 +69498,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69376,7 +69511,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69389,7 +69524,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69402,7 +69537,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69415,7 +69550,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69428,7 +69563,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69441,7 +69576,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69454,7 +69589,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69467,7 +69602,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69480,7 +69615,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69493,7 +69628,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69506,7 +69641,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69519,7 +69654,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69532,7 +69667,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69545,7 +69680,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69558,7 +69693,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -69571,7 +69706,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.3125)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -82110,14 +82245,14 @@
 			)
 		)
 	)
-	(gr_text "VCC and GND go trough all layers\nSelect goes from Mult/Div to Bottom Plate\n4017 Pins go from Mult/Div to Bottom Plate\nOsc Out goes from Top Plate to Mult/Div\nDefault clock goes from Top Plate to Bottom Plate\nLower Output and Upper Output go from Mult/Div to Top Plate\n4051 pins go from Bottom Plate to Top Plate\n\n"
+	(gr_text "VCC and GND go trough all layers\nSelect goes from Mult/Div to Bottom Plate\n4017 Pins go from Mult/Div to Bottom Plate\nOsc Out goes from Top Plate to Mult/Div → Osc Out will be in Mult/Div\nDefault clock goes from Top Plate to Bottom Plate\nLower Output and Upper Output go from Mult/Div to Top Plate\n4051 pins go from Bottom Plate to Top Plate\n\n"
 		(at 74.1 181.4 0)
 		(layer "Cmts.User")
 		(uuid "5b5c0ec8-cf45-46f5-9d9e-42e0c727eeaa")
 		(effects
 			(font
 				(size 5 5)
-				(thickness 1)
+				(thickness 0.625)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -82691,6 +82826,518 @@
 				(xy 3.045683 9.87058) (xy 3.045683 9.870582) (xy 3.044613 9.878712) (xy 0 9.878712) (xy 0 0.2245)
 				(xy 0.019685 0.157461) (xy 0.072489 0.111706) (xy 0.124 0.1005) (xy 99.670613 0.1005)
 			)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "08768a79-0aab-41f4-8df3-c2c6bde146c7")
+		(members
+			(member "506d8311-4aa4-435b-9e74-c1c5ed939f14" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "0a681abe-6201-4ccc-a51f-62bddfa9b4c5")
+		(members
+			(member "acf58680-c47e-4c6f-b8c5-901c6cfb7ceb" start)
+			(member "eb96b5e3-a6e9-44d7-980b-58b02060c49f" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "0b742d26-b9af-4b6d-b138-f6cfe69bea2a")
+		(members
+			(member "87c2d626-a839-43e9-8af9-dddf98177269" center)
+			(member "828eddf0-5bb6-408a-a74f-977b59aa56f8" start)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "0c3e0f7d-2bc4-4c23-81c0-092de50a2570")
+		(members
+			(member "506d8311-4aa4-435b-9e74-c1c5ed939f14" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type coincident)
+		(uuid "0e06f45e-a75d-4c14-bdd4-a22497e3183c")
+		(members
+			(member "506d8311-4aa4-435b-9e74-c1c5ed939f14" end)
+			(member "37609a13-7fdd-4d4e-848a-525a6f2665b4" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "110c4ec0-8e55-48ae-b719-2160a3f10f11")
+		(members
+			(member "16d04b9c-5f61-4e11-81ca-2be0e25e4e64" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type coincident)
+		(uuid "1274fbb0-0b8a-4c04-bc07-07420f61029d")
+		(members
+			(member "2f1cb272-a329-4db4-a55d-8e38d09ce082" start)
+			(member "a982c047-c649-4478-a334-4e4de369218e" center)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "158dbf94-714f-4fbc-8ff9-2aaafe99c52d")
+		(members
+			(member "8671e3f4-ac60-4edb-b825-34e0b1fde771" whole)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "20028a9f-e3af-4bc5-960b-55bdc87df88a")
+		(members
+			(member "3bb2cdf9-6726-4cfb-8520-03d189812389" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "229e5769-880b-487a-9488-c86eac20384d")
+		(members
+			(member "3bb2cdf9-6726-4cfb-8520-03d189812389" end)
+			(member "5e41cd28-5a21-4aac-a5de-67585e90608f" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "2d5b622c-b2c8-4323-be48-a3d66b1f9c88")
+		(members
+			(member "8671e3f4-ac60-4edb-b825-34e0b1fde771" start)
+			(member "1240e821-1f92-4d33-b2e7-4eb32bae3399" center)
+		)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "304400ed-4d34-415c-9af3-ffefa1228ab6")
+		(members
+			(member "64b7975f-0180-4a2c-ad5d-bef20314d09f" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "30fd3bfe-defc-44c8-8c62-66aa5b1f29f6")
+		(members
+			(member "7c5247b5-d1e4-41cc-828b-18cc20514cce" end)
+			(member "6f2dcc10-1cfb-4553-9d05-28ba379b0b78" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "32d914be-2360-485a-aac1-98070b05b548")
+		(members
+			(member "32bd6110-0479-4441-ada3-5ef709c249b9" end)
+			(member "1ddb4ecc-5ca7-469b-ae87-7c2a7848d111" center)
+		)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "3ed87c38-8183-491e-a1e5-4d63cf37bef5")
+		(members
+			(member "14f5a06f-3dd9-4c8b-bdc0-072d1007bba0" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "3ef649cf-5b58-4528-9898-c0ee9a34527b")
+		(members
+			(member "185291bf-8c6e-4db2-94cd-5ffbc5537e8e" start)
+			(member "f46a3239-8f40-4e26-bf60-8d8352320afe" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "41053364-35e3-4a65-87e6-ca2ba2c80642")
+		(members
+			(member "8671e3f4-ac60-4edb-b825-34e0b1fde771" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "44053f56-4615-449d-b38b-f1b8e58200d9")
+		(members
+			(member "828eddf0-5bb6-408a-a74f-977b59aa56f8" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "473ae690-fc21-42d4-9dc7-e871537686da")
+		(members
+			(member "f46a3239-8f40-4e26-bf60-8d8352320afe" center)
+			(member "64b7975f-0180-4a2c-ad5d-bef20314d09f" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "4d35232b-3939-461c-bfc4-779719a27a0f")
+		(members
+			(member "3bb2cdf9-6726-4cfb-8520-03d189812389" start)
+			(member "d4a56313-f5bb-424c-ace5-0d68cabbce72" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "515eda6d-76af-4b85-96de-3d77d08d383a")
+		(members
+			(member "14f5a06f-3dd9-4c8b-bdc0-072d1007bba0" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type coincident)
+		(uuid "51a02b47-755a-4f5c-88af-6092b381e0e5")
+		(members
+			(member "d683d9b0-3f84-4a5b-be7e-c0c45b5447a3" center)
+			(member "14f5a06f-3dd9-4c8b-bdc0-072d1007bba0" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "5f2ee385-bc1d-49f7-ad6d-d30145749242")
+		(members
+			(member "32bd6110-0479-4441-ada3-5ef709c249b9" start)
+			(member "41a40503-77f6-44eb-a769-9f6d10a39e18" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "628e6882-80be-46eb-9dab-0377ba4958b7")
+		(members
+			(member "506d8311-4aa4-435b-9e74-c1c5ed939f14" start)
+			(member "87c2d626-a839-43e9-8af9-dddf98177269" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "62a00eec-34d6-42bf-b2e8-7539904641b0")
+		(members
+			(member "c67b94e3-8e9b-4743-b272-782021e9edc9" center)
+			(member "8439fb25-b233-4477-abef-12f3fe5bbd53" end)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "630f15f3-4ce5-469a-a3a8-8760d64ea018")
+		(members
+			(member "e1b35f2e-68d8-4064-88b4-057ff328ce72" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "63f65142-8e1b-4d4a-bd62-eaa85a693e39")
+		(members
+			(member "7c5247b5-d1e4-41cc-828b-18cc20514cce" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type coincident)
+		(uuid "669dea6f-78e4-4afc-a8e7-f75a816781e7")
+		(members
+			(member "095be712-8b31-4631-a15b-e597a308e4ad" center)
+			(member "64b7975f-0180-4a2c-ad5d-bef20314d09f" end)
+		)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "6ba8cc17-4fa1-49b7-9203-dc116c9bbbb2")
+		(members
+			(member "7c5247b5-d1e4-41cc-828b-18cc20514cce" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "6f9ecfff-4e7c-46b1-a5fa-c30758387cf5")
+		(members
+			(member "acf58680-c47e-4c6f-b8c5-901c6cfb7ceb" end)
+			(member "5a1efaf2-2674-438d-9eb2-5cef3f37a33e" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "72283490-765e-4d1c-9e3c-c8102a352a07")
+		(members
+			(member "2f1cb272-a329-4db4-a55d-8e38d09ce082" end)
+			(member "095be712-8b31-4631-a15b-e597a308e4ad" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "7793aef3-3597-4d34-82fa-8207e5bcd19b")
+		(members
+			(member "8671e3f4-ac60-4edb-b825-34e0b1fde771" end)
+			(member "babc6071-ec95-4281-8194-e539165f81d2" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "77a3e125-aec4-4c76-bb29-d7a50afd6885")
+		(members
+			(member "092b57e3-818d-46de-aa69-544bd95dd878" end)
+			(member "41a40503-77f6-44eb-a769-9f6d10a39e18" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "7c0b7e0c-ec85-4773-8a01-01e7ffad07ef")
+		(members
+			(member "479a75e0-874d-497c-a840-6aaa7d821d5f" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "7fd5eb89-4fff-4fec-a9b8-204b95f74476")
+		(members
+			(member "828eddf0-5bb6-408a-a74f-977b59aa56f8" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "81c396c0-4125-4a1a-9bfa-17b09a686434")
+		(members
+			(member "6b834c47-1947-45cd-b85e-a43f8a4efcec" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "8376f221-83f7-4a5b-855b-019387fd8a70")
+		(members
+			(member "e1b35f2e-68d8-4064-88b4-057ff328ce72" whole)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "84a6570b-9587-4c39-8799-53658e42c8d5")
+		(members
+			(member "32bd6110-0479-4441-ada3-5ef709c249b9" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type coincident)
+		(uuid "8961ab4b-848d-4ab3-93b8-67ce14571f21")
+		(members
+			(member "6b834c47-1947-45cd-b85e-a43f8a4efcec" end)
+			(member "a982c047-c649-4478-a334-4e4de369218e" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "8bd5fd6b-523f-4946-a226-9adca73b7c15")
+		(members
+			(member "e1b35f2e-68d8-4064-88b4-057ff328ce72" start)
+			(member "37609a13-7fdd-4d4e-848a-525a6f2665b4" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "8cc0ee5e-6370-4a3c-bf49-6a46e84b6019")
+		(members
+			(member "479a75e0-874d-497c-a840-6aaa7d821d5f" start)
+			(member "d683d9b0-3f84-4a5b-be7e-c0c45b5447a3" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "93f060a6-91d1-45f4-aa18-e8d72f2c3430")
+		(members
+			(member "3bb2cdf9-6726-4cfb-8520-03d189812389" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "9d288e70-09f3-4592-99c8-a5dbbc3ac1e2")
+		(members
+			(member "2f1cb272-a329-4db4-a55d-8e38d09ce082" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type coincident)
+		(uuid "ab02cee8-a485-4714-a65d-a2b5a83334b5")
+		(members
+			(member "16d04b9c-5f61-4e11-81ca-2be0e25e4e64" start)
+			(member "6f2dcc10-1cfb-4553-9d05-28ba379b0b78" center)
+		)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "ac6f0064-893a-4ec2-993c-c2350c22a192")
+		(members
+			(member "092b57e3-818d-46de-aa69-544bd95dd878" whole)
+		)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "ad0fa139-3d2e-450f-b0b8-261eb07b957c")
+		(members
+			(member "6b834c47-1947-45cd-b85e-a43f8a4efcec" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "b1c527fa-c3f9-4afa-87f8-501ab5efa364")
+		(members
+			(member "e1b35f2e-68d8-4064-88b4-057ff328ce72" end)
+			(member "1240e821-1f92-4d33-b2e7-4eb32bae3399" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "b48e6e17-2656-44ed-8e43-60794651d039")
+		(members
+			(member "185291bf-8c6e-4db2-94cd-5ffbc5537e8e" whole)
+		)
+		(value 80)
+	)
+	(constraint
+		(type coincident)
+		(uuid "c80ab3e1-ca6b-48c2-b036-ca684cb1a009")
+		(members
+			(member "6b834c47-1947-45cd-b85e-a43f8a4efcec" start)
+			(member "06f05d44-0163-405e-acec-8666d46ebb3f" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "c8255f44-aeac-4145-bcce-d40ff9e8b130")
+		(members
+			(member "7c5247b5-d1e4-41cc-828b-18cc20514cce" start)
+			(member "5e41cd28-5a21-4aac-a5de-67585e90608f" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "cc1cb191-0708-4545-b115-2b9ab2f23c90")
+		(members
+			(member "092b57e3-818d-46de-aa69-544bd95dd878" start)
+			(member "bc540a0e-ae43-4b57-ba12-af7bb0db0b5f" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "cf33ca34-4069-40ba-80a9-7e820e476212")
+		(members
+			(member "16d04b9c-5f61-4e11-81ca-2be0e25e4e64" end)
+			(member "c67b94e3-8e9b-4743-b272-782021e9edc9" center)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "cfc15ea9-89ce-4041-8d11-903dce910a1c")
+		(members
+			(member "64b7975f-0180-4a2c-ad5d-bef20314d09f" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type coincident)
+		(uuid "d378dff8-5e7f-4359-aa7d-46cdd937253c")
+		(members
+			(member "babc6071-ec95-4281-8194-e539165f81d2" center)
+			(member "828eddf0-5bb6-408a-a74f-977b59aa56f8" end)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "d5009fde-4aa7-4ca2-9ade-901e2603db74")
+		(members
+			(member "8439fb25-b233-4477-abef-12f3fe5bbd53" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type vertical)
+		(uuid "d56d527a-8a83-47d0-8609-861a279ca8d7")
+		(members
+			(member "185291bf-8c6e-4db2-94cd-5ffbc5537e8e" whole)
+		)
+	)
+	(constraint
+		(type fixed_length)
+		(uuid "debe1eb2-6f60-4a14-88bc-3be9cd6dd7b6")
+		(members
+			(member "092b57e3-818d-46de-aa69-544bd95dd878" whole)
+		)
+		(value 90)
+	)
+	(constraint
+		(type horizontal)
+		(uuid "e208d718-6b92-472a-b2ec-8746d708c84b")
+		(members
+			(member "8439fb25-b233-4477-abef-12f3fe5bbd53" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "e717b76b-11bc-4603-8bfd-85e2a3cc9b68")
+		(members
+			(member "185291bf-8c6e-4db2-94cd-5ffbc5537e8e" end)
+			(member "06f05d44-0163-405e-acec-8666d46ebb3f" center)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "eaf87a5d-cd31-400b-a762-c957eb326a9b")
+		(members
+			(member "2f1cb272-a329-4db4-a55d-8e38d09ce082" whole)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "f4e23f30-6422-498d-a25b-16066fdc194e")
+		(members
+			(member "d4a56313-f5bb-424c-ace5-0d68cabbce72" center)
+			(member "8439fb25-b233-4477-abef-12f3fe5bbd53" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "f85ad74b-94eb-42b9-920e-3ed7b8e1ee73")
+		(members
+			(member "479a75e0-874d-497c-a840-6aaa7d821d5f" end)
+			(member "bc540a0e-ae43-4b57-ba12-af7bb0db0b5f" center)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "f8c9b51c-c7e3-445d-853b-d35361067869")
+		(members
+			(member "1ddb4ecc-5ca7-469b-ae87-7c2a7848d111" center)
+			(member "14f5a06f-3dd9-4c8b-bdc0-072d1007bba0" end)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "fd701f10-858c-43df-bc5b-f39d3be7691d")
+		(members
+			(member "32bd6110-0479-4441-ada3-5ef709c249b9" whole)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "fe0f5a85-91e1-4e1a-ad16-ec2a2deed819")
+		(members
+			(member "479a75e0-874d-497c-a840-6aaa7d821d5f" whole)
+		)
+	)
+	(constraint
+		(type vertical)
+		(uuid "fe7de5cf-170d-4c46-9f9d-ac9aa57b40d0")
+		(members
+			(member "16d04b9c-5f61-4e11-81ca-2be0e25e4e64" whole)
 		)
 	)
 	(embedded_fonts no)
