@@ -1711,7 +1711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 118.11 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1733,7 +1733,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 118.11 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 118.11 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1792,7 +1803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1814,7 +1825,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 80.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1873,7 +1895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 99.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1895,7 +1917,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 99.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1954,7 +1987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "CP_Elec_5x5.4"
 			(at 32.7152 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1976,7 +2009,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
+			(at 31.75 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
 			(at 31.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2191,7 +2235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2213,7 +2257,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 69.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2272,7 +2327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2294,7 +2349,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2353,7 +2419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "CP_Elec_5x5.4"
 			(at 111.4552 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2375,7 +2441,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
+			(at 110.49 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
 			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2434,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 50.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2456,7 +2533,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 50.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 50.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2515,7 +2603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2537,7 +2625,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 60.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2674,7 +2773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 40.64 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2696,7 +2795,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 40.64 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 40.64 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2911,7 +3021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2933,7 +3043,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
+			(at 88.9 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)

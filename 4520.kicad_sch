@@ -1094,7 +1094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1105,7 +1105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf"
+		(property "Datasheet" ""
 			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1116,7 +1116,18 @@
 				)
 			)
 		)
-		(property "Description" "Dual Binary Up-Counter"
+		(property "Description" ""
+			(at 38.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1296,7 +1307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 76.2 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1318,7 +1329,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 76.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 76.2 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1690,7 +1712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1712,7 +1734,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 76.2 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1770,7 +1803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1781,7 +1814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf"
+		(property "Datasheet" ""
 			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1792,7 +1825,18 @@
 				)
 			)
 		)
-		(property "Description" "Dual Binary Up-Counter"
+		(property "Description" ""
+			(at 100.33 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1972,7 +2016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 87.63 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1994,7 +2038,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 87.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 87.63 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2052,7 +2107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 100.33 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2063,7 +2118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf"
+		(property "Datasheet" ""
 			(at 100.33 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2074,7 +2129,18 @@
 				)
 			)
 		)
-		(property "Description" "Dual Binary Up-Counter"
+		(property "Description" ""
+			(at 100.33 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 100.33 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2176,7 +2242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 87.63 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2198,7 +2264,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 87.63 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 87.63 62.23 0)
 			(hide yes)
 			(show_name no)

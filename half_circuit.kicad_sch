@@ -4685,7 +4685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
+		(property "Footprint" "SW_SPDT_CK_JS102011SAQN"
 			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4707,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" ""
 			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+		(property "Footprint" "SOT-23"
 			(at 129.54 90.805 0)
 			(hide yes)
 			(show_name no)
@@ -5262,7 +5262,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" ""
 			(at 124.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5274,7 +5274,18 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
+			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 124.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5340,7 +5351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+		(property "Footprint" "SOT-23"
 			(at 58.42 62.865 0)
 			(hide yes)
 			(show_name no)
@@ -5353,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" ""
 			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5365,7 +5376,18 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
+			(at 53.34 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5678,7 +5700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5700,7 +5722,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5850,7 +5883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5872,7 +5905,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 127 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5936,7 +5980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "SW_DPDT_CK_JS202011JCQN"
 			(at 220.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5958,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
+		(property "Description" ""
 			(at 220.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6900,6 +6944,16 @@
 				(justify right)
 			)
 		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/e00ebc01-440e-4477-8d51-aed2c51c95ea"
+					(page "8")
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4b203833-f0af-4e88-a9fb-191df5175df3"
+					(page "19")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 120.65 58.42)
@@ -6977,6 +7031,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/e00ebc01-440e-4477-8d51-aed2c51c95ea"
+					(page "3")
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4b203833-f0af-4e88-a9fb-191df5175df3"
+					(page "15")
+				)
 			)
 		)
 	)
@@ -7157,6 +7221,16 @@
 				(justify left)
 			)
 		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/e00ebc01-440e-4477-8d51-aed2c51c95ea"
+					(page "4")
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4b203833-f0af-4e88-a9fb-191df5175df3"
+					(page "16")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 163.83 83.82)
@@ -7303,6 +7377,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(instances
+			(project "kleingorium"
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/e00ebc01-440e-4477-8d51-aed2c51c95ea"
+					(page "7")
+				)
+				(path "/01c1f2c1-4d06-4880-847a-9ab55552e3fd/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4b203833-f0af-4e88-a9fb-191df5175df3"
+					(page "17")
+				)
 			)
 		)
 	)

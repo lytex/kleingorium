@@ -12256,6 +12256,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 260.35 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "90b6bd93-106a-479c-a5a0-d54c3c101b17")
 		)

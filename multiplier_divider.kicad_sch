@@ -956,7 +956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
+		(property "Footprint" "SW_SPDT_CK_JS102011SAQN"
 			(at 278.13 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -978,7 +978,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" ""
 			(at 278.13 135.89 0)
 			(hide yes)
 			(show_name no)

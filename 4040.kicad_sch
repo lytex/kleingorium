@@ -1410,7 +1410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1421,7 +1421,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf"
+		(property "Datasheet" ""
 			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1432,7 +1432,18 @@
 				)
 			)
 		)
-		(property "Description" "Binary Counter 12 stages (Asynchronous)"
+		(property "Description" ""
+			(at 133.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1538,7 +1549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "R_0805_2012Metric"
 			(at 116.84 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1560,7 +1571,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 116.84 76.2 0)
 			(hide yes)
 			(show_name no)

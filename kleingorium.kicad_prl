@@ -17,17 +17,17 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "otherItems": false,
+      "pads": false,
+      "text": false,
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -118,7 +118,9 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [],
+    "hierarchy_collapsed": [
+      "/ad1f1d92-237d-4bc3-883c-2ce266dd223f/4b203833-f0af-4e88-a9fb-191df5175df3/"
+    ],
     "selection_filter": {
       "graphics": true,
       "images": true,

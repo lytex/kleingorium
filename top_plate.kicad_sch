@@ -10297,6 +10297,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 148.59 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "aa1bc2fc-4920-41ac-8c63-5599f61d9a12")
 		)
@@ -10526,7 +10537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10537,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10548,7 +10559,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 34.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10642,7 +10664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 54.61 65.0748 0)
 			(hide yes)
 			(show_name no)
@@ -10664,7 +10686,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 50.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 50.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11005,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11016,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11027,7 +11060,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 69.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12736,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12758,7 +12802,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 226.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13444,7 +13499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 35.56 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13455,7 +13510,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 35.56 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13466,7 +13521,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 35.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 35.56 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13560,7 +13626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 224.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13571,7 +13637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 224.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13582,7 +13648,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 224.79 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 224.79 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13678,7 +13755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13689,7 +13766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13700,7 +13777,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 148.59 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14008,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 71.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14019,7 +14107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+		(property "Datasheet" ""
 			(at 71.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14030,7 +14118,18 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter"
+		(property "Description" ""
+			(at 71.12 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 71.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14879,7 +14978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
+		(property "Footprint" "SW_SPDT_CK_JS102011SAQN"
 			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14901,7 +15000,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" ""
 			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15138,7 +15237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "C_0805_2012Metric"
 			(at 55.88 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -15160,7 +15259,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 52.07 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
