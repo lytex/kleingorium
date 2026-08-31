@@ -163,7 +163,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "version": 3
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
