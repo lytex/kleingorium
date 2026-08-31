@@ -1,7 +1,4 @@
 (footprint "Header_2x9_P2.54mm_Vertical_SMD_FH-00369"
-	(version 20260828)
-	(generator "pcbnew")
-	(generator_version "10.99")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6.8 0)
