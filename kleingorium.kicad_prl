@@ -49,9 +49,7 @@
       "drc_warnings",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "grid_items",
-      "via_stitching"
+      "shapes"
     ],
     "visible_layers": "00000000_00000000_00000080_22080025",
     "zone_display_mode": 0
@@ -64,7 +62,7 @@
   },
   "meta": {
     "filename": "kleingorium.kicad_prl",
-    "version": 7
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
@@ -128,9 +126,7 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [
-      "/ad1f1d92-237d-4bc3-883c-2ce266dd223f/"
-    ],
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,

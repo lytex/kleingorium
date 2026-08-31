@@ -393,7 +393,7 @@
   "erc": {
     "erc_exclusions": [],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "pin_map": [
       [
@@ -925,7 +925,7 @@
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
-      "version": 2
+      "version": 0
     },
     "tuning_profiles_impedance_geometric": []
   }

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260826)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "ab0f1df8-b426-4c4c-b84c-c818560e3cac")
 	(paper "A3")
 	(lib_symbols
@@ -956,7 +956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SW_SPDT_CK_JS102011SAQN"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 278.13 135.89 0)
 			(hide yes)
 			(show_name no)

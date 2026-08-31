@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260826)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "6f136e26-786f-4ba4-b0ff-826234372761")
 	(paper "A4")
 	(lib_symbols
@@ -149,7 +149,6 @@
 					)
 				)
 			)
-			(symbol "4069_1_1")
 			(symbol "4069_2_0"
 				(polyline
 					(pts
@@ -200,7 +199,6 @@
 					)
 				)
 			)
-			(symbol "4069_2_1")
 			(symbol "4069_3_0"
 				(polyline
 					(pts
@@ -251,7 +249,6 @@
 					)
 				)
 			)
-			(symbol "4069_3_1")
 			(symbol "4069_4_0"
 				(polyline
 					(pts
@@ -302,7 +299,6 @@
 					)
 				)
 			)
-			(symbol "4069_4_1")
 			(symbol "4069_5_0"
 				(polyline
 					(pts
@@ -353,7 +349,6 @@
 					)
 				)
 			)
-			(symbol "4069_5_1")
 			(symbol "4069_6_0"
 				(polyline
 					(pts
@@ -404,7 +399,6 @@
 					)
 				)
 			)
-			(symbol "4069_6_1")
 			(symbol "4069_7_0"
 				(pin power_in line
 					(at 0 -12.7 90)
@@ -12228,7 +12222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal"
 			(at 55.88 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13519,7 +13513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal"
 			(at 224.79 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14315,7 +14309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal"
 			(at 226.06 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14606,7 +14600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal"
 			(at 57.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15280,7 +15274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SW_SPDT_CK_JS102011SAQN"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 83.82 101.6 0)
 			(hide yes)
 			(show_name no)
