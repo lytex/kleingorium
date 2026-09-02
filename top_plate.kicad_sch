@@ -5771,7 +5771,7 @@
 		)
 		(uuid "0beb9caa-1c09-423e-9bfc-f373c763c631")
 	)
-	(text "12x8 Matrix"
+	(text "12x9 Matrix"
 		(exclude_from_sim no)
 		(at 118.11 87.63 0)
 		(effects
@@ -5781,7 +5781,7 @@
 		)
 		(uuid "0eef81b6-0522-4813-823d-8c0ba738f70e")
 	)
-	(text "18x20 Matrix"
+	(text "18x24 Matrix"
 		(exclude_from_sim no)
 		(at 98.298 134.366 0)
 		(effects
@@ -11462,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
+		(property "Footprint" "kleingorium:Header_2x12_P2.54mm_Vertical_SMD_FH-00369"
 			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12669,7 +12669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
+		(property "Footprint" "kleingorium:Header_2x12_P2.54mm_Vertical_SMD_FH-00369"
 			(at 144.78 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13203,7 +13203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
+		(property "Footprint" "kleingorium:Header_2x12_P2.54mm_Vertical_SMD_FH-00369"
 			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14944,7 +14944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
+		(property "Footprint" "kleingorium:Header_2x12_P2.54mm_Vertical_SMD_FH-00369"
 			(at 132.08 106.68 0)
 			(hide yes)
 			(show_name no)
