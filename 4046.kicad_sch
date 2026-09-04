@@ -3835,22 +3835,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "812fa6e3-3405-4bb5-8632-902c1f48fd3c")
+			(uuid "812fa6e3-3405-4bb5-8632-902c1f48fd3d")
 		)
 		(pin "6"
-			(uuid "09291c05-d1a8-4f75-bc58-14701dc11d68")
+			(uuid "09291c05-d1a8-4f75-bc58-14701dc11d69")
 		)
 		(pin "4"
-			(uuid "41a72e47-dbfa-4b9a-a6e6-e6756b75eb43")
+			(uuid "41a72e47-dbfa-4b9a-a6e6-e6756b75eb44")
 		)
 		(pin "1"
-			(uuid "d17c25c7-da5c-43f2-88ee-2043c083f3fd")
+			(uuid "d17c25c7-da5c-43f2-88ee-2043c083f3fe")
 		)
 		(pin "3"
-			(uuid "605b8c35-b966-4dab-9942-e8e14e6ef5b7")
+			(uuid "605b8c35-b966-4dab-9942-e8e14e6ef5b8")
 		)
 		(pin "5"
-			(uuid "48d169ab-5c09-4f55-87f1-c0f9e1702623")
+			(uuid "48d169ab-5c09-4f55-87f1-c0f9e1702624")
 		)
 		(instances
 			(project "kleingorium"
