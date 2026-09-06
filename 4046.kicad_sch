@@ -3889,7 +3889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 99.06 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,7 +3976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1nF"
 			(at 99.06 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296Z_Horizontal"
 			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
